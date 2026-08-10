@@ -1,3 +1,4 @@
+import About from "./About/About";
 import Banner from "./Banner/Banner";
 
 const Home = () => {
@@ -7,6 +8,7 @@ const Home = () => {
         Discover the Heritage of Bogura
       </h1>
       <Banner></Banner>
+      <About></About>
     </div>
   );
 };

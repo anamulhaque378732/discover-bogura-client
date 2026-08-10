@@ -23,7 +23,7 @@ const Navbar = () => {
         <NavLink to="/"> Famous Food </NavLink>
       </li>
       <li>
-        <NavLink to="/">About</NavLink>
+        <NavLink to="/moreAbout">About</NavLink>
       </li>
     </>
   );
