@@ -1,0 +1,155 @@
+{
+  "id": "bogura",
+
+  "name": "Bogura",
+  "slug": "bogura",
+
+  "division": "Rajshahi Division",
+  "country": "Bangladesh",
+
+  "area": "2,898.68 km²",
+  "population": "3M+",
+  "totalUpazilas": 12,
+
+  "heroImage": "/src/assets/bogura.png",
+  "mapImage": "/src/assets/map.jpeg",
+
+  "shortDescription": "Bogura is one of the most historically significant and culturally rich districts of Bangladesh, known for its ancient heritage, traditional culture, educational institutions, and famous Bogura Doi.",
+
+  "introduction": {
+    "title": "About Bogura",
+    "description": "Located in the Rajshahi Division of northern Bangladesh, Bogura is a district rich in history, heritage, culture, and tradition. The district is widely known for Mahasthangarh, one of the oldest archaeological sites in Bangladesh, as well as its famous traditional sweet yogurt, known as Bogura Doi."
+  },
+
+  "history": {
+    "title": "History of Bogura",
+    "image": "/src/assets/banner.png",
+    "description": "Bogura has a long and important history that dates back thousands of years. The region is closely connected with Mahasthangarh, an ancient archaeological site that represents the rich historical heritage of Bangladesh. Over time, Bogura has developed into an important center for education, agriculture, business, and culture."
+  },
+
+  "geography": {
+    "title": "Geography & Location",
+    "description": "Bogura is located in northern Bangladesh and is part of the Rajshahi Division. The district has a diverse geographical landscape and is connected with several important roads and neighboring districts.",
+    "latitude": 24.8465,
+    "longitude": 89.3776
+  },
+
+  "culture": {
+    "title": "Culture & Heritage",
+    "description": "Bogura has a vibrant cultural identity shaped by its long history, local traditions, festivals, food, arts, and archaeological heritage. The district represents a unique combination of ancient history and modern development.",
+    "image": "/src/assets/culture.png"
+  },
+
+  "famousFood": {
+    "title": "Famous Food",
+    "name": "Bogura Doi",
+    "image": "/src/assets/doi.png",
+    "description": "Bogura Doi is one of the most famous traditional foods of Bangladesh. It is known for its unique taste, creamy texture, and long-standing cultural connection with the district."
+  },
+
+  "upazilas": [
+    {
+      "name": "Adamdighi",
+      "slug": "adamdighi",
+      "shortDescription": "Adamdighi is an important upazila of Bogura, known for its agricultural activities, local communities, and growing educational institutions.",
+      "distanceFromSadar": "Approx. 25 km",
+      "location": "Southern part of Bogura District"
+    },
+    {
+      "name": "Bogura Sadar",
+      "slug": "bogura-sadar",
+      "shortDescription": "Bogura Sadar is the administrative and commercial center of the district, known for its educational institutions, business activities, healthcare facilities, and urban development.",
+      "distanceFromSadar": "0 km",
+      "location": "Central Bogura"
+    },
+    {
+      "name": "Dhunat",
+      "slug": "dhunat",
+      "shortDescription": "Dhunat is a northern upazila of Bogura, known for its agricultural landscape, rural heritage, local markets, and communities connected to the Jamuna river region.",
+      "distanceFromSadar": "Approx. 35 km",
+      "location": "Northern part of Bogura District"
+    },
+    {
+      "name": "Dhupchanchia",
+      "slug": "dhupchanchia",
+      "shortDescription": "Dhupchanchia is an important upazila known for agriculture, trade, educational institutions, and its active local communities.",
+      "distanceFromSadar": "Approx. 20 km",
+      "location": "Southern part of Bogura District"
+    },
+    {
+      "name": "Gabtali",
+      "slug": "gabtali",
+      "shortDescription": "Gabtali is a well-known upazila of Bogura with a strong agricultural economy, busy local markets, and a rich rural cultural environment.",
+      "distanceFromSadar": "Approx. 20 km",
+      "location": "Western part of Bogura District"
+    },
+    {
+      "name": "Kahaloo",
+      "slug": "kahaloo",
+      "shortDescription": "Kahaloo is an agricultural upazila of Bogura known for its rural lifestyle, farming activities, local markets, and educational institutions.",
+      "distanceFromSadar": "Approx. 30 km",
+      "location": "Northern part of Bogura District"
+    },
+    {
+      "name": "Nandigram",
+      "slug": "nandigram",
+      "shortDescription": "Nandigram is a developing upazila of Bogura known for agriculture, traditional rural communities, local commerce, and educational activities.",
+      "distanceFromSadar": "Approx. 25 km",
+      "location": "Southern part of Bogura District"
+    },
+    {
+      "name": "Sariakandi",
+      "slug": "sariakandi",
+      "shortDescription": "Sariakandi is a riverside upazila located near the Jamuna River, known for its agricultural production, river-based lifestyle, and scenic rural environment.",
+      "distanceFromSadar": "Approx. 30 km",
+      "location": "Eastern part of Bogura District"
+    },
+    {
+      "name": "Shajahanpur",
+      "slug": "shajahanpur",
+      "shortDescription": "Shajahanpur is a rapidly developing upazila located close to Bogura town, known for residential growth, education, commerce, and agricultural activities.",
+      "distanceFromSadar": "Approx. 10 km",
+      "location": "Southern part of Bogura District"
+    },
+    {
+      "name": "Sherpur",
+      "slug": "sherpur",
+      "shortDescription": "Sherpur is an important commercial and agricultural upazila of Bogura, known for its busy markets, transportation connections, and local industries.",
+      "distanceFromSadar": "Approx. 20 km",
+      "location": "Southern part of Bogura District"
+    },
+    {
+      "name": "Shibganj",
+      "slug": "shibganj",
+      "shortDescription": "Shibganj is one of the historically important upazilas of Bogura and is widely known for Mahasthangarh, one of the oldest archaeological sites in Bangladesh.",
+      "distanceFromSadar": "Approx. 13 km",
+      "location": "Northern part of Bogura District"
+    },
+    {
+      "name": "Sonatala",
+      "slug": "sonatala",
+      "shortDescription": "Sonatala is an agricultural upazila of Bogura known for its rural communities, farming activities, local traditions, and educational institutions.",
+      "distanceFromSadar": "Approx. 35 km",
+      "location": "Northern part of Bogura District"
+    }
+  ],
+
+  "highlights": [
+    {
+      "title": "Historical Heritage",
+      "description": "Home to Mahasthangarh, one of the most important archaeological sites in Bangladesh."
+    },
+    {
+      "title": "Educational Growth",
+      "description": "Bogura has a large number of schools, colleges, madrasas, and other educational institutions."
+    },
+    {
+      "title": "Traditional Food",
+      "description": "The district is internationally recognized for its famous Bogura Doi."
+    },
+    {
+      "title": "Tourist Attractions",
+      "description": "Bogura offers a variety of historical, cultural, and natural places to explore."
+    }
+  ]
+}

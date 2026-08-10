@@ -5,6 +5,7 @@ import Register from "../Pages/Register/Register";
 import Login from "../Pages/Login/Login";
 import Home from "../Pages/Home/Home";
 import MoreAbout from "../Pages/MoreAbout/MoreAbout";
+import Loading from "../Components/Loading/Loading";
 
 export const router = createBrowserRouter([
   {
@@ -29,6 +30,9 @@ export const router = createBrowserRouter([
   },
   {
     path: "/moreAbout",
+
     Component: MoreAbout,
+    loader: () => fetch("./moreAbout.json"),
+    hydrateFallbackElement: <Loading></Loading>,
   },
 ]);
