@@ -3,13 +3,19 @@ import RootLayouts from "../Layouts/RootLayouts";
 import ErrorElement from "../Pages/ErrorPage/ErrorElement";
 import Register from "../Pages/Register/Register";
 import Login from "../Pages/Login/Login";
+import Home from "../Pages/Home/Home";
 
 export const router = createBrowserRouter([
   {
     path: "/",
     Component: RootLayouts,
     errorElement: <ErrorElement></ErrorElement>,
-    children: [{}],
+    children: [
+      {
+        index: true,
+        Component: Home,
+      },
+    ],
   },
 
   {

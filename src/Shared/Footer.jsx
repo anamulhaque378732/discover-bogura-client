@@ -2,7 +2,7 @@ import LogoLarge from "../Components/Logo/LogoLarge";
 
 const Footer = () => {
   return (
-    <footer className="footer footer-horizontal footer-center bg-primary text-primary-content p-10">
+    <footer className="footer md:mt-12 footer-horizontal footer-center bg-primary text-primary-content p-10">
       <aside>
         <LogoLarge></LogoLarge>
         <p className="font-bold text-2xl">
