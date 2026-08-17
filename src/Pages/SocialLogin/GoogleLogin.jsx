@@ -1,6 +1,26 @@
+import Swal from "sweetalert2";
+import UseAuth from "../../Hooks/UseAuth";
+
 const GoogleLogin = () => {
+  const { googleLogin } = UseAuth();
+
+  const handleGoogleLogin = () => {
+    googleLogin()
+      .then((result) => {
+        console.log(result.user);
+      })
+      .catch((error) => {
+        Swal.fire({
+          icon: "error",
+          title: "Database Error!",
+          text: ` ${error.message}`,
+        });
+      });
+  };
+
   return (
     <button
+      onClick={handleGoogleLogin}
       aria-label="Login with Google"
       type="button"
       className="flex items-center justify-center w-full p-4 space-x-4 border rounded-md focus:ring-2 focus:ring-offset-1 dark:border-gray-600 focus:dark:ring-violet-600"

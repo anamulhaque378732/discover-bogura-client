@@ -24,8 +24,6 @@ const MoreAbout = () => {
     upazilas,
   } = data;
 
-  console.log(heroImage);
-
   return (
     <>
       <div className="max-w-7xl mx-auto">
@@ -152,7 +150,7 @@ const MoreAbout = () => {
           All Upazilas
         </h1>
 
-        <div className="grid md:grid-cols-4 gap-4 md:mt-12 grid-cols-1">
+        <div className="grid md:grid-cols-3 gap-4 md:mt-12 grid-cols-1">
           {upazilas.map((upazila, index) => (
             <div key={index} className="border rounded-2xl  p-4">
               <h1 className="text-3xl font-bold"> Name: {upazila.name} </h1>
