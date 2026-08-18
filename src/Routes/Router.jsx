@@ -15,7 +15,9 @@ export const router = createBrowserRouter([
     children: [
       {
         index: true,
+        loader: () => fetch("./importantPlace.json"),
         Component: Home,
+        hydrateFallbackElement: <Loading />,
       },
     ],
   },

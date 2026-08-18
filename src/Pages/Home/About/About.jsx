@@ -41,7 +41,10 @@ const About = () => {
           </div>
         </section>
       </div>
-      <Link className="mx-auto flex justify-center  pb-2" to="/moreAbout">
+      <Link
+        className="mx-auto flex justify-center md:my-8 my-4  pb-2"
+        to="/moreAbout"
+      >
         <button className="btn btn-primary md:w-1/3 w-full content-center ">
           More About Bogura
         </button>

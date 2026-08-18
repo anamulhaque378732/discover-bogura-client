@@ -102,8 +102,8 @@ const MoreAbout = () => {
         {/* highlights */}
 
         <div className="grid grid-cols-1 md:mt-12 mt-4 gap-4 mb-4  md:mb:8 md:grid-cols-4 ">
-          {highlights.map((highlight) => (
-            <div className="border p-4 rounded-2xl ">
+          {highlights.map((highlight, index) => (
+            <div key={index} className="border p-4 rounded-2xl ">
               <h1 className="text-3xl font-bold"> {highlight?.title} </h1>
               <p className="py-2">{highlight?.description}</p>
             </div>
