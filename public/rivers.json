@@ -1,0 +1,562 @@
+[
+  {
+    "name": "Karatoya River",
+    "banglaName": "করতোয়া নদী",
+    "slug": "karatoya-river",
+    "category": "Major River",
+    "type": "Historical River",
+    "district": "Bogura",
+    "upazilas": ["Bogura Sadar", "Shibganj", "Gabtali", "Sherpur"],
+    "location": {
+      "region": "Central Bogura",
+      "description": "The river flows through the central part of Bogura district and is closely associated with Bogura city and Mahasthangarh."
+    },
+    "boguraSadarDistance": "The river flows beside/through Bogura city.",
+    "howToGoFromBoguraSadar": {
+      "route": "Bogura Sadar → Karatoya riverbank",
+      "transport": ["Rickshaw", "CNG", "Auto-rickshaw", "Private car"],
+      "approximateTravelTime": "15-40 minutes depending on the riverbank location"
+    },
+    "course": {
+      "direction": "Generally north to south",
+      "description": "The Karatoya passes through the central part of Bogura and forms an important geographical feature of the district."
+    },
+    "historicalImportance": "Karatoya is one of the most historically significant rivers of Bogura. The ancient city of Pundranagara, represented today by Mahasthangarh, developed beside the Karatoya. The river therefore played an important role in the growth of ancient settlement, trade, transportation and religious culture in the region.",
+    "economicImportance": [
+      "Agriculture",
+      "Fishing",
+      "Irrigation",
+      "Local water resources",
+      "Riverine livelihoods"
+    ],
+    "environmentalImportance": [
+      "Aquatic ecosystem",
+      "Fish habitat",
+      "Floodplain ecology",
+      "Groundwater recharge"
+    ],
+    "famousFor": [
+      "Mahasthangarh",
+      "Ancient Pundranagara",
+      "Historical heritage",
+      "Bogura city river landscape"
+    ],
+    "nearbyImportantPlaces": [
+      "Mahasthangarh",
+      "Govinda Bhita",
+      "Mahasthan Archaeological Museum"
+    ],
+    "seasonalCondition": {
+      "monsoon": "Water level generally increases",
+      "winter": "Water flow becomes comparatively lower",
+      "summer": "Some sections may experience reduced flow"
+    },
+    "tourismPotential": "High",
+    "activities": [
+      "River sightseeing",
+      "Historical tourism",
+      "Photography",
+      "Nature observation"
+    ],
+    "description": "The Karatoya River is one of the defining geographical and historical features of Bogura. The river runs through the central part of the district and is closely connected with Bogura city and the Mahasthangarh archaeological area. Historically, the Karatoya was much larger and more important than its present form, and ancient settlements developed along its banks. Mahasthangarh, identified with ancient Pundranagara, grew beside this river and became an important political, commercial and cultural centre. As a result, the history of Karatoya and the history of ancient Bogura are strongly connected. The river also appears in the historical and cultural traditions associated with the region. Today, although its size and flow have changed considerably over time, the Karatoya remains an important part of Bogura's landscape. It contributes to local agriculture, fisheries and aquatic ecosystems. The river is especially valuable for heritage tourism because visitors can experience the river together with Mahasthangarh, Govinda Bhita and other archaeological sites. The Bogura district administration identifies Karatoya as one of the district's four principal rivers and notes that Bogura city is situated beside it.",
+    "bestTimeToVisit": "November to March",
+    "isMajorRiver": true,
+    "isHistorical": true,
+    "isTouristAttraction": true
+  },
+
+  {
+    "name": "Jamuna River",
+    "banglaName": "যমুনা নদী",
+    "slug": "jamuna-river",
+    "category": "Major River",
+    "type": "Large River",
+    "district": "Bogura",
+    "upazilas": ["Sariakandi", "Dhunat"],
+    "location": {
+      "region": "Eastern Bogura",
+      "description": "The Jamuna forms an important part of the eastern side of Bogura district."
+    },
+    "boguraSadarDistance": "Approximately 35-60 km from Bogura city depending on the access point.",
+    "howToGoFromBoguraSadar": {
+      "route": "Bogura Sadar → Sariakandi/Dhunat → Jamuna riverbank",
+      "transport": ["Bus", "CNG", "Auto-rickshaw", "Private car"],
+      "approximateTravelTime": "1-2 hours depending on destination"
+    },
+    "course": {
+      "direction": "Generally north-south",
+      "description": "The Jamuna flows along the eastern side of Bogura district and is closely connected with Sariakandi and Dhunat."
+    },
+    "historicalImportance": "The Jamuna is part of the major river system that shaped settlement, agriculture, transportation and economic activity in eastern Bogura.",
+    "economicImportance": [
+      "Fishing",
+      "Agriculture",
+      "Char agriculture",
+      "River transportation",
+      "Irrigation",
+      "Local trade"
+    ],
+    "environmentalImportance": [
+      "Fish habitat",
+      "Wetland ecosystem",
+      "Char ecosystem",
+      "Floodplain ecology",
+      "Sediment deposition"
+    ],
+    "famousFor": [
+      "Large river landscape",
+      "Char areas",
+      "Fishing",
+      "Boat transportation",
+      "Riverbank scenery"
+    ],
+    "nearbyImportantPlaces": [
+      "Sariakandi",
+      "Dhunat",
+      "Kali Tala riverbank",
+      "Prem Jamuna Ghat"
+    ],
+    "seasonalCondition": {
+      "monsoon": "The river becomes wide and water level rises significantly",
+      "winter": "Large char areas may become visible",
+      "summer": "Flow and river channels vary according to season"
+    },
+    "tourismPotential": "Very High",
+    "activities": [
+      "River sightseeing",
+      "Boating",
+      "Photography",
+      "Char exploration",
+      "Nature observation"
+    ],
+    "description": "The Jamuna River is one of the most important natural features of eastern Bogura. It forms a major part of the district's eastern geographical boundary and strongly influences the life and economy of communities in Sariakandi and Dhunat. The river is characterized by a broad channel, changing sandbars and seasonal char lands. During the monsoon, its water level increases considerably and the river becomes a powerful natural force, while during the dry season large sections of char land may become visible. These chars are often used for seasonal agriculture and grazing. Fishing and boat transportation are also important activities for communities living around the river. The Jamuna has significant environmental value because its floodplain supports fish, birds, aquatic plants and agricultural ecosystems. From a tourism perspective, the river provides a very different experience from Bogura's archaeological attractions. Visitors can experience open river landscapes, boats, chars and rural riverine life. Sariakandi's riverbank areas, including Kali Tala and Prem Jamuna Ghat, can be incorporated into a Jamuna-based nature-tourism route. The Bogura district administration identifies Jamuna as one of the four principal rivers of the district.",
+    "bestTimeToVisit": "November to March",
+    "isMajorRiver": true,
+    "isTouristAttraction": true
+  },
+
+  {
+    "name": "Bangali River",
+    "banglaName": "বাঙ্গালী নদী",
+    "slug": "bangali-river",
+    "category": "Major River",
+    "type": "River System",
+    "district": "Bogura",
+    "upazilas": ["Dhunat", "Sariakandi", "Sonatala", "Gabtali"],
+    "location": {
+      "region": "Eastern and southeastern Bogura",
+      "description": "The Bangali river system extends through several eastern and southeastern parts of Bogura."
+    },
+    "boguraSadarDistance": "Approximately 25-60 km depending on the access point.",
+    "howToGoFromBoguraSadar": {
+      "route": "Bogura Sadar → Gabtali/Sonatala/Dhunat/Sariakandi",
+      "transport": ["Bus", "CNG", "Auto-rickshaw", "Private car"]
+    },
+    "course": {
+      "direction": "Generally north-south with several connected channels",
+      "description": "The river system contains several branches and connected waterways across eastern Bogura."
+    },
+    "economicImportance": [
+      "Agriculture",
+      "Fishing",
+      "Irrigation",
+      "Local transportation",
+      "Char agriculture"
+    ],
+    "environmentalImportance": [
+      "Wetlands",
+      "Fish habitat",
+      "Floodplain ecosystem",
+      "Seasonal water retention"
+    ],
+    "famousFor": [
+      "Riverine agriculture",
+      "Fishing",
+      "Local waterways",
+      "Rural landscape"
+    ],
+    "seasonalCondition": {
+      "monsoon": "Water flow increases and connected channels become more active",
+      "winter": "Water level decreases in many sections",
+      "summer": "Some smaller channels may become shallow or partially dry"
+    },
+    "tourismPotential": "Medium",
+    "activities": [
+      "Nature observation",
+      "Photography",
+      "River sightseeing",
+      "Rural tourism"
+    ],
+    "description": "The Bangali River is one of the four principal rivers officially identified for Bogura district. It is particularly important to communities in the eastern and southeastern parts of the district and is connected with a broader network of channels and tributaries. The river system contributes to agricultural production, fishing and seasonal water management. Its relationship with local floodplains makes it particularly important to rural communities. The Bangali is not simply a single uniform channel; the official district description records several connected river courses and local names associated with different sections of the water system. This makes the river geographically interesting and important for understanding Bogura's traditional water network. During the monsoon, the river and its connected channels carry more water and become important for fisheries and agriculture. During the dry season, water levels fall and some sections become shallow. The river is less developed as a conventional tourist attraction than the Jamuna or the historical Karatoya, but its rural scenery, agricultural landscape and river-based livelihood make it suitable for nature and rural tourism.",
+    "bestTimeToVisit": "November to March",
+    "isMajorRiver": true,
+    "isTouristAttraction": false
+  },
+
+  {
+    "name": "Nagar River",
+    "banglaName": "নাগর নদী",
+    "slug": "nagor-river",
+    "category": "Major River",
+    "type": "Regional River",
+    "district": "Bogura",
+    "upazilas": ["Adamdighi", "Dupchanchia", "Nandigram"],
+    "location": {
+      "region": "Western Bogura",
+      "description": "Nagar is one of the notable rivers of western Bogura."
+    },
+    "boguraSadarDistance": "Approximately 30-50 km from Bogura city depending on the access point.",
+    "howToGoFromBoguraSadar": {
+      "route": "Bogura Sadar → Nandigram/Dupchanchia/Adamdighi",
+      "transport": ["Bus", "CNG", "Auto-rickshaw", "Private car"]
+    },
+    "course": {
+      "direction": "Generally north-south",
+      "description": "The Nagar forms part of the western river network of Bogura."
+    },
+    "economicImportance": [
+      "Agriculture",
+      "Fishing",
+      "Irrigation",
+      "Local water resources"
+    ],
+    "environmentalImportance": [
+      "Aquatic habitat",
+      "Wetland ecosystem",
+      "Floodplain ecology"
+    ],
+    "famousFor": [
+      "Western Bogura landscape",
+      "Agricultural areas",
+      "Local fisheries"
+    ],
+    "seasonalCondition": {
+      "monsoon": "Water flow increases",
+      "winter": "Water level generally declines",
+      "summer": "Some sections may have reduced flow"
+    },
+    "tourismPotential": "Medium",
+    "activities": ["Nature observation", "Photography", "Rural tourism"],
+    "description": "The Nagar River is one of the four principal rivers listed by the Bogura district administration. It is associated mainly with the western part of the district and contributes to the local agricultural and ecological landscape. Compared with the Jamuna, the Nagar is less prominent as a large-scale tourist destination, but it remains geographically important because it forms part of Bogura's wider river network. Its water resources support agricultural activities and local fisheries, while surrounding lowlands provide habitat for aquatic organisms and seasonal wetlands. The river is particularly useful to include in a district information portal because it demonstrates that Bogura's water system is not limited to the famous Karatoya and Jamuna. The Nagar can be presented as a natural-resource feature of western Bogura and linked to the Upazilas through which its waterways pass.",
+    "bestTimeToVisit": "November to March",
+    "isMajorRiver": true,
+    "isTouristAttraction": false
+  },
+
+  {
+    "name": "Ichamati River",
+    "banglaName": "ইছামতি নদী",
+    "slug": "ichamati-river-bogura",
+    "category": "Local River",
+    "type": "Local River",
+    "district": "Bogura",
+    "upazilas": ["Gabtali", "Dhunat"],
+    "location": {
+      "region": "Eastern/Central Bogura",
+      "description": "The Ichamati is a local river connected with several water bodies and channels in Gabtali and Dhunat areas."
+    },
+    "boguraSadarDistance": "Approximately 15-40 km depending on the river section.",
+    "howToGoFromBoguraSadar": {
+      "route": "Bogura Sadar → Gabtali → river access points",
+      "transport": ["CNG", "Auto-rickshaw", "Bus", "Private car"]
+    },
+    "officialLength": "Approximately 20-25 miles according to Bogura district information.",
+    "course": {
+      "description": "The river begins from a watercourse around Rajeshwar Union of Gabtali and passes through several villages and water bodies before connecting with other river systems."
+    },
+    "economicImportance": [
+      "Agriculture",
+      "Fishing",
+      "Irrigation",
+      "Local water resources"
+    ],
+    "environmentalImportance": [
+      "Wetlands",
+      "Fish habitat",
+      "Seasonal waterways"
+    ],
+    "famousFor": [
+      "Local river system",
+      "Rural landscape",
+      "Water-based agriculture"
+    ],
+    "tourismPotential": "Medium",
+    "activities": ["Nature observation", "Photography", "Rural tourism"],
+    "description": "Ichamati is a local river of Bogura with a relatively complex network of channels and connected water bodies. According to the Bogura district administration's river description, a watercourse from the Rajeshwar Union area of Gabtali develops into the Ichamati and passes through a number of villages and wetlands. Different channels join the river along its course, and parts of the river system eventually connect with the Sukhdah/Bangali and Halhalia/Fuljor river systems. The official description gives its length as approximately 20 to 25 miles. The river is associated with several settlements including Durgahata, Rameshwarpur and Bhanudanga. Because the Ichamati is a local river rather than one of Bangladesh's largest rivers, its importance is mainly regional. It supports agriculture, fisheries and seasonal water resources and contributes to the rural landscape of Bogura. Its complicated network of channels also demonstrates the historically interconnected nature of northern Bangladesh's river systems.",
+    "bestTimeToVisit": "November to March",
+    "isMajorRiver": false,
+    "isTouristAttraction": false
+  },
+
+  {
+    "name": "Mahishaban River",
+    "banglaName": "মহিষাবান নদী",
+    "slug": "mahishaban-river",
+    "category": "Local River",
+    "type": "Small Local River",
+    "district": "Bogura",
+    "upazilas": ["Bogura Sadar", "Gabtali"],
+    "location": {
+      "region": "Central and eastern Bogura",
+      "description": "The river originates around water bodies between Dhanai, Khidradhama and Chakjhap villages of Bogura Sadar and extends toward Gabtali."
+    },
+    "boguraSadarDistance": "Starts within Bogura Sadar.",
+    "howToGoFromBoguraSadar": {
+      "route": "Bogura Sadar → Sabgram/Madla area → Mahishaban river system",
+      "transport": ["CNG", "Auto-rickshaw", "Rickshaw", "Private car"]
+    },
+    "officialLength": "Approximately 12-14 miles according to Bogura district information.",
+    "course": {
+      "description": "The river develops several branches and channels before extending toward the Gabtali area."
+    },
+    "economicImportance": [
+      "Agriculture",
+      "Seasonal irrigation",
+      "Fishing",
+      "Water resources"
+    ],
+    "environmentalImportance": [
+      "Seasonal wetland",
+      "Fish habitat",
+      "Floodplain ecosystem"
+    ],
+    "famousFor": [
+      "Local water system",
+      "Mahishaban area",
+      "Seasonal river landscape"
+    ],
+    "seasonalCondition": {
+      "monsoon": "Usually contains substantial water",
+      "drySeason": "Some sections may not retain water throughout the year"
+    },
+    "tourismPotential": "Low to Medium",
+    "activities": ["Nature observation", "Rural landscape photography"],
+    "description": "Mahishaban is a relatively small local river that begins from water bodies in the Bogura Sadar area and extends toward parts of Gabtali. The official district river description identifies its origin around the Dhanai, Khidradhama and Chakjhap areas of Sabgram Union. The river develops several branches and channels, with some joining the Karatoya and others connecting with local waterways. Its total length is described by the district administration as approximately 12 to 14 miles. Unlike the Jamuna and Karatoya, Mahishaban is not a major tourist destination, but it is valuable from the perspective of local geography, agriculture and water resources. The river does not retain the same amount of water throughout the year and becomes fuller during the monsoon. The riverbank areas are associated with rural settlements and agricultural land. Including Mahishaban in the database will make your rivers collection more complete because it documents an important local watercourse rather than only nationally famous rivers.",
+    "bestTimeToVisit": "Monsoon for water scenery; November to March for comfortable travel",
+    "isMajorRiver": false,
+    "isTouristAttraction": false
+  },
+
+  {
+    "name": "Halhalia River",
+    "banglaName": "হলহলিয়া নদী",
+    "alternativeNames": ["ফুলজোড় নদী", "Fuljor River"],
+    "slug": "halhalia-river",
+    "category": "Regional River",
+    "type": "River Channel",
+    "district": "Bogura",
+    "upazilas": ["Dhunat", "Sherpur"],
+    "location": {
+      "region": "Southern Bogura",
+      "description": "The Halhalia/Fuljor river channel is connected with the Bangali and other river systems before continuing toward Sirajganj."
+    },
+    "boguraSadarDistance": "Approximately 25-55 km depending on the river section.",
+    "howToGoFromBoguraSadar": {
+      "route": "Bogura Sadar → Dhunat/Sherpur → local river access point",
+      "transport": ["Bus", "CNG", "Auto-rickshaw", "Private car"]
+    },
+    "course": {
+      "description": "According to district information, the connected watercourse passes through several localities and continues toward Chandaikona in Sirajganj district."
+    },
+    "economicImportance": [
+      "Agriculture",
+      "Fishing",
+      "Water resources",
+      "Floodplain agriculture"
+    ],
+    "environmentalImportance": [
+      "Wetlands",
+      "Aquatic habitat",
+      "Floodplain ecosystem"
+    ],
+    "famousFor": [
+      "Connected river system",
+      "Rural river landscape",
+      "Seasonal waterways"
+    ],
+    "tourismPotential": "Medium",
+    "activities": ["Nature observation", "Photography", "Rural tourism"],
+    "description": "Halhalia, also known in parts of the river system as Fuljor, is an important connected watercourse in southern Bogura. The Bogura district administration's river description explains that the Manas/Monas system joins channels associated with the Bangali river and eventually continues as Halhalia or Fuljor toward Sirajganj. The river passes through several rural settlements before reaching Chandaikona in Sirajganj. This makes Halhalia important as part of the wider interconnected river network rather than as an isolated river. Its water supports agriculture, fisheries and seasonal wetlands in the surrounding areas. The river also demonstrates how local rivers in Bogura connect with larger regional drainage systems and cross district boundaries. For your database, it is useful to keep the alternative name 'Fuljor River' because local and administrative sources may use different names for connected sections.",
+    "bestTimeToVisit": "November to March",
+    "isMajorRiver": false,
+    "isTouristAttraction": false
+  },
+
+  {
+    "name": "Baniaiyan River",
+    "banglaName": "বানিয়াইয়ান নদী",
+    "slug": "baniaiyan-river",
+    "category": "Local River",
+    "type": "Small River",
+    "district": "Bogura",
+    "upazilas": ["Dhunat"],
+    "location": {
+      "region": "Dhunat",
+      "description": "The river enters through the Nimgachhi Union area and passes through several localities before joining the Bangali River."
+    },
+    "boguraSadarDistance": "Approximately 45-55 km from Bogura city.",
+    "howToGoFromBoguraSadar": {
+      "route": "Bogura Sadar → Dhunat → Nimgachhi/Chikashi area",
+      "transport": ["Bus", "CNG", "Auto-rickshaw", "Private car"]
+    },
+    "officialLength": "Approximately 7-8 miles according to Bogura district information.",
+    "course": {
+      "description": "The river passes through Nimgachhi, Majhbari, Chiyali, Chikashi, Mohanpur, Laxmipur and Anarpur before joining the Bangali River."
+    },
+    "economicImportance": ["Agriculture", "Fishing", "Local water resources"],
+    "environmentalImportance": [
+      "Seasonal wetlands",
+      "Fish habitat",
+      "Floodplain ecology"
+    ],
+    "famousFor": [
+      "Dhunat river landscape",
+      "Connection with Bangali River",
+      "Local waterways"
+    ],
+    "tourismPotential": "Low",
+    "activities": ["Rural sightseeing", "Nature observation", "Photography"],
+    "description": "Baniaiyan is a relatively small local river associated with Dhunat Upazila. The Bogura district administration describes the river as entering through the northern part of Nimgachhi Union and passing through a series of villages and localities before joining the Bangali River. Its approximate length is 7 to 8 miles. Important settlements along or near the river include Nimgachhi and Dhunat. The river is considered by the district description to be closely related to the Bangali river system and may represent a continuation of the same broader watercourse under a locally used name. This is an important point for a geographic database because local river names do not always correspond to completely independent hydrological systems. Baniaiyan contributes to local agriculture, fisheries and seasonal water management but does not currently function as a major tourist attraction.",
+    "bestTimeToVisit": "November to March",
+    "isMajorRiver": false,
+    "isTouristAttraction": false
+  },
+
+  {
+    "name": "Iramati River",
+    "banglaName": "ইরামতি নদী",
+    "slug": "iramati-river",
+    "category": "Local River",
+    "type": "Small River",
+    "district": "Bogura",
+    "upazilas": ["Dupchanchia", "Adamdighi"],
+    "location": {
+      "region": "Western Bogura",
+      "description": "The river develops from water bodies west of Dupchanchia and flows toward Adamdighi."
+    },
+    "boguraSadarDistance": "Approximately 35-50 km from Bogura city.",
+    "howToGoFromBoguraSadar": {
+      "route": "Bogura Sadar → Dupchanchia → Adamdighi",
+      "transport": ["Bus", "CNG", "Auto-rickshaw", "Private car"]
+    },
+    "officialLength": "Approximately 10 miles according to Bogura district information.",
+    "course": {
+      "description": "The river forms from several channels and flows southwest through localities including Khalili, Nashratpur and Santahar before reaching a water body near Parail."
+    },
+    "economicImportance": [
+      "Agriculture",
+      "Irrigation",
+      "Fishing",
+      "Local water resources"
+    ],
+    "environmentalImportance": [
+      "Wetland ecosystem",
+      "Seasonal water flow",
+      "Aquatic habitat"
+    ],
+    "famousFor": [
+      "Nashratpur",
+      "Local agricultural landscape",
+      "Seasonal waterways"
+    ],
+    "tourismPotential": "Low",
+    "activities": ["Rural sightseeing", "Nature observation"],
+    "description": "Iramati is a small local river associated with Dupchanchia and Adamdighi in western Bogura. According to the district administration's description, several watercourses originating around the area west of Dupchanchia come together and form the Iramati. The river then travels in a southwesterly direction through localities including Khalili, Nashratpur and areas near the Santahar railway line before reaching a water body in Adamdighi. Its approximate length is 10 miles. The river is important primarily for local water management, agriculture and the surrounding wetland ecosystem. It is not a major tourism destination, but including it in the database helps document the smaller rivers that contribute to Bogura's hydrological network. The river's connection with several villages and settlements also makes it useful for location-based filtering in your application.",
+    "bestTimeToVisit": "November to March",
+    "isMajorRiver": false,
+    "isTouristAttraction": false
+  },
+
+  {
+    "name": "Velka River",
+    "banglaName": "ভেলকা নদী",
+    "slug": "velka-river",
+    "category": "Local River",
+    "type": "Small River",
+    "district": "Bogura",
+    "upazilas": ["Gabtali"],
+    "location": {
+      "region": "Gabtali",
+      "description": "The river originates from a wetland between Rameshwarpur and Gazira and joins the Ichamati near Naruyamala Hat."
+    },
+    "boguraSadarDistance": "Approximately 25-35 km from Bogura city.",
+    "howToGoFromBoguraSadar": {
+      "route": "Bogura Sadar → Gabtali → Rameshwarpur/Gazira → Naruyamala",
+      "transport": ["CNG", "Auto-rickshaw", "Bus", "Private car"]
+    },
+    "course": {
+      "description": "The river flows from the Rameshwarpur-Gazira wetland area toward Naruyamala and joins the Ichamati River."
+    },
+    "economicImportance": [
+      "Agriculture",
+      "Fishing",
+      "Seasonal water resources"
+    ],
+    "environmentalImportance": [
+      "Wetland habitat",
+      "Fish habitat",
+      "Seasonal waterways"
+    ],
+    "famousFor": ["Gabtali rural landscape", "Connection with Ichamati River"],
+    "tourismPotential": "Low",
+    "activities": ["Nature observation", "Rural sightseeing"],
+    "description": "Velka is a small local river in Gabtali Upazila. The Bogura district administration describes it as a stream originating from a wetland between Rameshwarpur and Gazira. It flows toward Naruyamala Hat and joins the Ichamati River. Although it is not a major river, Velka is part of the interconnected local water network that supports agriculture, fisheries and wetlands in Gabtali. Its connection with Ichamati makes it useful for understanding the broader hydrological system of the district. The river can be included in the database as a local watercourse rather than as a major tourist destination.",
+    "bestTimeToVisit": "November to March",
+    "isMajorRiver": false,
+    "isTouristAttraction": false
+  },
+
+  {
+    "name": "Chandrabati River",
+    "banglaName": "চন্দ্রাবতী নদী",
+    "slug": "chandrabati-river",
+    "category": "Local River",
+    "type": "Regional Watercourse",
+    "district": "Bogura",
+    "location": {
+      "region": "Western Bogura",
+      "description": "Chandrabati is identified by the Bogura district administration among the rivers of western Bogura."
+    },
+    "boguraSadarDistance": "Varies by access point.",
+    "howToGoFromBoguraSadar": {
+      "route": "Bogura Sadar → western Bogura local road network",
+      "transport": ["CNG", "Auto-rickshaw", "Private car"]
+    },
+    "economicImportance": ["Agriculture", "Fishing", "Local water resources"],
+    "environmentalImportance": ["Aquatic ecosystem", "Seasonal wetlands"],
+    "famousFor": ["Western Bogura water network", "Local rural landscape"],
+    "tourismPotential": "Low",
+    "activities": ["Nature observation", "Rural sightseeing"],
+    "description": "Chandrabati is one of the smaller watercourses identified in the official river information for Bogura. The district administration places it among the rivers of the western part of the district. Compared with the four principal rivers—Karatoya, Bangali, Jamuna and Nagar—Chandrabati has a more local geographical role. It contributes to the network of seasonal waterways, wetlands and agricultural areas that characterize parts of western Bogura. Detailed measurements and precise access points are not consistently provided in the current district-level source, so the database should avoid inventing a specific length or exact coordinate until verified from a dedicated hydrological source. It is nevertheless useful to include the river as a documented local watercourse.",
+    "dataConfidence": "Medium",
+    "isMajorRiver": false,
+    "isTouristAttraction": false
+  },
+
+  {
+    "name": "Bhadai River",
+    "banglaName": "ভাদাই নদী",
+    "slug": "bhadai-river",
+    "category": "Local River",
+    "type": "Local Watercourse",
+    "district": "Bogura",
+    "location": {
+      "region": "Western Bogura",
+      "description": "Bhadai is identified among the notable rivers/watercourses of western Bogura."
+    },
+    "boguraSadarDistance": "Varies by access point.",
+    "howToGoFromBoguraSadar": {
+      "route": "Bogura Sadar → western Bogura local roads",
+      "transport": ["CNG", "Auto-rickshaw", "Private car"]
+    },
+    "economicImportance": ["Agriculture", "Fishing", "Local water resources"],
+    "environmentalImportance": ["Seasonal wetlands", "Aquatic habitat"],
+    "famousFor": ["Western Bogura rural landscape", "Local water system"],
+    "tourismPotential": "Low",
+    "activities": ["Nature observation", "Rural sightseeing"],
+    "description": "Bhadai is another local river or watercourse identified in the Bogura district administration's official river information. It belongs to the western part of the district's river network. Its importance is primarily local, supporting agricultural landscapes, seasonal water retention and aquatic ecosystems. Unlike the Jamuna, Karatoya, Bangali and Nagar, Bhadai does not have the same level of national recognition or tourism infrastructure. For a comprehensive Discover Bogura database, however, it is useful to preserve the name and general regional classification. Exact length, coordinates and detailed course information should only be added after verification from a dedicated hydrological or water-development source.",
+    "dataConfidence": "Medium",
+    "isMajorRiver": false,
+    "isTouristAttraction": false
+  }
+]

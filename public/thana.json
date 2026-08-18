@@ -1,0 +1,1095 @@
+[
+  {
+    "type": "police_station",
+    "name": "Bogura Sadar Police Station",
+    "slug": "bogura-sadar-police-station",
+    "district": "Bogura",
+    "division": "Rajshahi",
+    "country": "Bangladesh",
+    "upazila": "Bogura Sadar",
+
+    "establishmentYear": null,
+
+    "location": {
+      "address": "Rangpur Road, Bogura, Bangladesh",
+      "latitude": null,
+      "longitude": null
+    },
+
+    "contact": {
+      "emergency": "999",
+      "stationOfficer": "01320-126601",
+      "investigationOfficer": "01320-126602"
+    },
+
+    "administration": {
+      "officerInCharge": "Officer in Charge",
+      "sanctionedManpower": null,
+      "currentManpower": null
+    },
+
+    "coverageArea": [
+      "Bogura Sadar Upazila",
+      "Bogura Municipality",
+      "Adjacent urban and rural areas under Bogura Sadar Police jurisdiction"
+    ],
+
+    "services": [
+      "General policing",
+      "Crime investigation",
+      "Complaint and GD registration",
+      "Law and order maintenance",
+      "Traffic and public safety coordination",
+      "Emergency response",
+      "Arrest and criminal investigation",
+      "Community policing"
+    ],
+
+    "description": "Bogura Sadar Police Station is one of the most important police stations in Bogura District and serves the central administrative and commercial area of Bogura. The station is responsible for maintaining law and order, responding to emergencies, receiving general diaries and complaints, investigating criminal cases, and coordinating police operations within its jurisdiction. Because Bogura Sadar contains the district headquarters, major commercial areas, educational institutions, healthcare facilities, transport hubs and densely populated urban communities, the station has an important role in urban policing and public safety. The station also coordinates with district-level police administration, traffic police and other law-enforcement units when necessary. Citizens can contact the station for police assistance, crime reporting, investigation-related matters and public-safety concerns.",
+
+    "dataSource": "Bangladesh Police / Bogura Judiciary"
+  },
+
+  {
+    "type": "police_station",
+    "name": "Shibganj Police Station",
+    "slug": "shibganj-police-station",
+    "district": "Bogura",
+    "division": "Rajshahi",
+    "country": "Bangladesh",
+    "upazila": "Shibganj",
+
+    "establishmentYear": null,
+
+    "location": {
+      "address": "Mohasthan-Shibganj Road, Shibganj, Bogura, Bangladesh",
+      "latitude": null,
+      "longitude": null
+    },
+
+    "contact": {
+      "emergency": "999",
+      "stationOfficer": "01320-126627",
+      "investigationOfficer": "01320-126628"
+    },
+
+    "administration": {
+      "officerInCharge": "Officer in Charge",
+      "sanctionedManpower": null,
+      "currentManpower": null
+    },
+
+    "coverageArea": [
+      "Shibganj Upazila",
+      "Mohasthan area",
+      "Rural communities under Shibganj Police jurisdiction"
+    ],
+
+    "services": [
+      "General policing",
+      "Crime investigation",
+      "GD and complaint services",
+      "Law and order",
+      "Emergency response",
+      "Community policing",
+      "Criminal case investigation"
+    ],
+
+    "description": "Shibganj Police Station serves Shibganj Upazila in Bogura District. The area includes important rural communities as well as historically significant locations such as the Mahasthangarh region. The police station is responsible for maintaining public order, responding to criminal incidents, investigating cases, receiving complaints and general diaries, and providing emergency police assistance to residents. Due to the large rural jurisdiction and movement of people around important archaeological and commercial locations, effective community policing and public-safety coordination are important functions of the station. The station works under Bogura District Police administration and coordinates with other government agencies when required for public safety, law enforcement and emergency situations.",
+
+    "dataSource": "Bangladesh Police / Bogura Judiciary"
+  },
+
+  {
+    "type": "police_station",
+    "name": "Sonatala Police Station",
+    "slug": "sonatala-police-station",
+    "district": "Bogura",
+    "division": "Rajshahi",
+    "country": "Bangladesh",
+    "upazila": "Sonatala",
+
+    "establishmentYear": null,
+
+    "location": {
+      "address": "Sonatala, Bogura, Bangladesh",
+      "latitude": null,
+      "longitude": null
+    },
+
+    "contact": {
+      "emergency": "999",
+      "stationOfficer": "01320-126653",
+      "investigationOfficer": "01320-126654"
+    },
+
+    "administration": {
+      "officerInCharge": "Officer in Charge",
+      "sanctionedManpower": null,
+      "currentManpower": null
+    },
+
+    "coverageArea": [
+      "Sonatala Upazila",
+      "Rural communities within Sonatala jurisdiction"
+    ],
+
+    "services": [
+      "Law and order",
+      "Crime investigation",
+      "GD registration",
+      "Complaint handling",
+      "Emergency police assistance",
+      "Community policing"
+    ],
+
+    "description": "Sonatala Police Station is responsible for policing and maintaining public safety throughout Sonatala Upazila of Bogura District. Its core responsibilities include maintaining law and order, investigating criminal cases, receiving complaints and general diaries, responding to emergencies and supporting community safety initiatives. The station serves a predominantly rural jurisdiction and therefore plays an important role in addressing local disputes, theft, violence, road-related incidents and other public-safety concerns. The police station operates under Bogura District Police and works with local administration and other government agencies when necessary. Residents of Sonatala can contact the station for police assistance, crime reporting, investigation-related matters and emergency support.",
+
+    "dataSource": "Bangladesh Police / Bogura Judiciary"
+  },
+
+  {
+    "type": "police_station",
+    "name": "Gabtali Police Station",
+    "slug": "gabtali-police-station",
+    "district": "Bogura",
+    "division": "Rajshahi",
+    "country": "Bangladesh",
+    "upazila": "Gabtali",
+
+    "establishmentYear": null,
+
+    "location": {
+      "address": "Gabtali-Shariakandi Road, Gabtali, Bogura, Bangladesh",
+      "latitude": null,
+      "longitude": null
+    },
+
+    "contact": {
+      "emergency": "999",
+      "stationOfficer": "01320-126679",
+      "investigationOfficer": "01320-126680"
+    },
+
+    "administration": {
+      "officerInCharge": "Officer in Charge",
+      "sanctionedManpower": null,
+      "currentManpower": null
+    },
+
+    "coverageArea": [
+      "Gabtali Upazila",
+      "Rural communities under Gabtali jurisdiction"
+    ],
+
+    "services": [
+      "Law enforcement",
+      "Crime investigation",
+      "Complaint handling",
+      "GD registration",
+      "Emergency response",
+      "Community policing"
+    ],
+
+    "description": "Gabtali Police Station serves Gabtali Upazila in Bogura District. The station is responsible for maintaining law and order, preventing crime, investigating criminal cases and responding to emergencies throughout its jurisdiction. It also receives complaints and general diaries from citizens and provides police assistance during public-safety incidents. The station serves rural communities and transportation routes connecting Gabtali with surrounding areas, making routine patrol, crime prevention and quick emergency response important parts of its activities. Gabtali Police Station operates under the administrative structure of Bogura District Police and coordinates with local government authorities and other law-enforcement units when required.",
+
+    "dataSource": "Bangladesh Police / Bogura Judiciary"
+  },
+
+  {
+    "type": "police_station",
+    "name": "Shariakandi Police Station",
+    "slug": "shariakandi-police-station",
+    "district": "Bogura",
+    "division": "Rajshahi",
+    "country": "Bangladesh",
+    "upazila": "Sariakandi",
+
+    "establishmentYear": null,
+
+    "location": {
+      "address": "Sariakandi, Bogura, Bangladesh",
+      "latitude": null,
+      "longitude": null
+    },
+
+    "contact": {
+      "emergency": "999",
+      "stationOfficer": "01320-126705",
+      "investigationOfficer": "01320-126706"
+    },
+
+    "administration": {
+      "officerInCharge": "Officer in Charge",
+      "sanctionedManpower": null,
+      "currentManpower": null
+    },
+
+    "coverageArea": [
+      "Sariakandi Upazila",
+      "Rural and river-adjacent communities within the jurisdiction"
+    ],
+
+    "services": [
+      "Law and order",
+      "Crime investigation",
+      "GD and complaint services",
+      "Emergency response",
+      "Community policing"
+    ],
+
+    "description": "Sariakandi Police Station is responsible for public safety and law enforcement in Sariakandi Upazila. The station performs routine policing, crime prevention, criminal investigation, complaint handling and emergency response. Because parts of the upazila are rural and river-adjacent, local policing requires regular attention to transportation, community disputes, theft, violence and other public-safety issues. The station works under Bogura District Police and coordinates with local administration and other emergency services when necessary. Citizens can approach the station for reporting crimes, filing general diaries, seeking police assistance and receiving support during emergencies.",
+
+    "dataSource": "Bangladesh Police / Bogura Judiciary"
+  },
+
+  {
+    "type": "police_station",
+    "name": "Adamdighi Police Station",
+    "slug": "adamdighi-police-station",
+    "district": "Bogura",
+    "division": "Rajshahi",
+    "country": "Bangladesh",
+    "upazila": "Adamdighi",
+
+    "establishmentYear": null,
+
+    "location": {
+      "address": "Adamdighi, Bogura, Bangladesh",
+      "latitude": null,
+      "longitude": null
+    },
+
+    "contact": {
+      "emergency": "999",
+      "stationOfficer": "01320-126800",
+      "investigationOfficer": null
+    },
+
+    "administration": {
+      "officerInCharge": "Officer in Charge",
+      "sanctionedManpower": null,
+      "currentManpower": null
+    },
+
+    "coverageArea": ["Adamdighi Upazila", "Local rural and market areas"],
+
+    "services": [
+      "General policing",
+      "Crime investigation",
+      "Complaint handling",
+      "GD registration",
+      "Emergency police response",
+      "Community policing"
+    ],
+
+    "description": "Adamdighi Police Station provides police services to Adamdighi Upazila of Bogura District. Its main responsibilities include maintaining law and order, preventing and investigating crimes, handling complaints and general diaries, responding to emergencies and supporting local public safety. The station serves both rural communities and local commercial areas and works under the supervision of Bogura District Police. Police officers coordinate with local administration and other agencies during major incidents and public-safety operations. Residents can contact the station for reporting criminal incidents, requesting emergency assistance and receiving information related to police services.",
+
+    "dataSource": "Bangladesh Police / Bogura Judiciary"
+  },
+
+  {
+    "type": "police_station",
+    "name": "Dhunat Police Station",
+    "slug": "dhunat-police-station",
+    "district": "Bogura",
+    "division": "Rajshahi",
+    "country": "Bangladesh",
+    "upazila": "Dhunat",
+
+    "establishmentYear": null,
+
+    "location": {
+      "address": "Dhunat, Bogura, Bangladesh",
+      "latitude": null,
+      "longitude": null
+    },
+
+    "contact": {
+      "emergency": "999",
+      "stationOfficer": "01320-126825",
+      "investigationOfficer": "01320-126826"
+    },
+
+    "administration": {
+      "officerInCharge": "Officer in Charge",
+      "sanctionedManpower": null,
+      "currentManpower": null
+    },
+
+    "coverageArea": [
+      "Dhunat Upazila",
+      "Rural communities within Dhunat jurisdiction"
+    ],
+
+    "services": [
+      "Law and order",
+      "Crime investigation",
+      "GD registration",
+      "Complaint handling",
+      "Emergency response",
+      "Community policing"
+    ],
+
+    "description": "Dhunat Police Station serves Dhunat Upazila and is responsible for maintaining public order and providing police services to residents throughout its jurisdiction. Its duties include crime prevention, criminal investigation, complaint and general diary services, emergency response and community policing. The station serves a largely rural population and therefore works closely with local communities and administrative authorities to address local security concerns. It operates under Bogura District Police and coordinates with other agencies during emergencies and major law-and-order situations. Citizens can contact the station for reporting crimes, requesting assistance and obtaining police services.",
+
+    "dataSource": "Bangladesh Police / Bogura Judiciary"
+  },
+
+  {
+    "type": "police_station",
+    "name": "Nandigram Police Station",
+    "slug": "nandigram-police-station",
+    "district": "Bogura",
+    "division": "Rajshahi",
+    "country": "Bangladesh",
+    "upazila": "Nandigram",
+
+    "establishmentYear": null,
+
+    "location": {
+      "address": "Nandigram, Bogura, Bangladesh",
+      "latitude": null,
+      "longitude": null
+    },
+
+    "contact": {
+      "emergency": "999",
+      "stationOfficer": "01320-126851",
+      "investigationOfficer": "01320-126852"
+    },
+
+    "administration": {
+      "officerInCharge": "Officer in Charge",
+      "sanctionedManpower": null,
+      "currentManpower": null
+    },
+
+    "coverageArea": ["Nandigram Upazila", "Rural and local market areas"],
+
+    "services": [
+      "General policing",
+      "Crime investigation",
+      "Complaint handling",
+      "GD registration",
+      "Emergency response",
+      "Community policing"
+    ],
+
+    "description": "Nandigram Police Station is responsible for law enforcement and public safety across Nandigram Upazila. The station handles criminal investigations, complaints, general diaries, emergency police response and routine law-and-order operations. It serves rural communities and local commercial areas and works with community members and local administration to prevent crime and resolve public-safety concerns. As part of Bogura District Police, the station can coordinate with district-level police units and other government agencies during significant incidents. Citizens can use the station for reporting crimes, requesting emergency police support and receiving assistance with police-related services.",
+
+    "dataSource": "Bangladesh Police / Bogura Judiciary"
+  },
+
+  {
+    "type": "police_station",
+    "name": "Shajahanpur Police Station",
+    "slug": "shajahanpur-police-station",
+    "district": "Bogura",
+    "division": "Rajshahi",
+    "country": "Bangladesh",
+    "upazila": "Shajahanpur",
+
+    "establishmentYear": null,
+
+    "location": {
+      "address": "Shajahanpur, Bogura, Bangladesh",
+      "latitude": null,
+      "longitude": null
+    },
+
+    "contact": {
+      "emergency": "999",
+      "stationOfficer": "01320-126877",
+      "investigationOfficer": "01320-126878"
+    },
+
+    "administration": {
+      "officerInCharge": "Officer in Charge",
+      "sanctionedManpower": null,
+      "currentManpower": null
+    },
+
+    "coverageArea": [
+      "Shajahanpur Upazila",
+      "Rural and semi-urban communities within the jurisdiction"
+    ],
+
+    "services": [
+      "Law and order",
+      "Crime investigation",
+      "GD registration",
+      "Complaint services",
+      "Emergency response",
+      "Community policing"
+    ],
+
+    "description": "Shajahanpur Police Station serves Shajahanpur Upazila and provides law-enforcement and public-safety services to residents across the jurisdiction. Its responsibilities include maintaining law and order, preventing and investigating crimes, receiving complaints and general diaries, and responding to emergency situations. The area contains rural and semi-urban communities, requiring regular patrol and community-based policing. The station works under Bogura District Police and coordinates with local government institutions and other law-enforcement agencies when necessary. Citizens can contact the station for emergency assistance, crime reporting, investigation-related services and other police support.",
+
+    "dataSource": "Bangladesh Police / Bogura Judiciary"
+  },
+
+  {
+    "type": "police_station",
+    "name": "Sherpur Police Station",
+    "slug": "sherpur-police-station",
+    "district": "Bogura",
+    "division": "Rajshahi",
+    "country": "Bangladesh",
+    "upazila": "Sherpur",
+
+    "establishmentYear": null,
+
+    "location": {
+      "address": "Sherpur, Bogura, Bangladesh",
+      "latitude": null,
+      "longitude": null
+    },
+
+    "contact": {
+      "emergency": "999",
+      "stationOfficer": null,
+      "investigationOfficer": null
+    },
+
+    "administration": {
+      "officerInCharge": "Officer in Charge",
+      "sanctionedManpower": null,
+      "currentManpower": null
+    },
+
+    "coverageArea": ["Sherpur Upazila", "Local urban and rural communities"],
+
+    "services": [
+      "General policing",
+      "Crime investigation",
+      "Law and order",
+      "Complaint handling",
+      "GD registration",
+      "Emergency response"
+    ],
+
+    "description": "Sherpur Police Station is responsible for policing Sherpur Upazila of Bogura District. The station performs routine law-enforcement activities, investigates criminal cases, receives complaints and general diaries, responds to emergencies and supports public order. Sherpur is an important area along major transportation routes, making crime prevention, traffic-related coordination and rapid emergency response important aspects of public safety. The station operates under Bogura District Police and works with local administration and other agencies when required. Residents can contact the station for police assistance, crime reporting, investigation-related issues and emergency support.",
+
+    "dataSource": "Bangladesh Police / Bangladesh Government"
+  },
+
+  {
+    "type": "police_station",
+    "name": "Kahaloo Police Station",
+    "slug": "kahaloo-police-station",
+    "district": "Bogura",
+    "division": "Rajshahi",
+    "country": "Bangladesh",
+    "upazila": "Kahaloo",
+
+    "establishmentYear": null,
+
+    "location": {
+      "address": "Kahaloo, Bogura, Bangladesh",
+      "latitude": null,
+      "longitude": null
+    },
+
+    "contact": {
+      "emergency": "999",
+      "stationOfficer": "01320-126778",
+      "investigationOfficer": null
+    },
+
+    "administration": {
+      "officerInCharge": "Officer in Charge",
+      "sanctionedManpower": null,
+      "currentManpower": null
+    },
+
+    "coverageArea": ["Kahaloo Upazila", "Local rural and market communities"],
+
+    "services": [
+      "Law enforcement",
+      "Crime investigation",
+      "GD registration",
+      "Complaint handling",
+      "Emergency response",
+      "Community policing"
+    ],
+
+    "description": "Kahaloo Police Station provides police and public-safety services throughout Kahaloo Upazila. Its major responsibilities include maintaining law and order, preventing and investigating crimes, receiving complaints and general diaries, and responding to emergencies. The station serves local rural and market communities and works with residents and local administration to address public-safety issues. It is part of Bogura District Police and may coordinate with other police units during major incidents or special operations. Citizens can approach the station to report crimes, request police assistance, file general diaries and seek support during emergencies.",
+
+    "dataSource": "Bangladesh Police / Bogura Judiciary"
+  },
+
+  {
+    "type": "fire_service",
+    "name": "Bogura Fire Station",
+    "slug": "bogura-fire-station",
+    "district": "Bogura",
+    "division": "Rajshahi",
+    "country": "Bangladesh",
+
+    "establishmentYear": null,
+
+    "location": {
+      "address": "Sherpur Road, Bogura, Bangladesh",
+      "latitude": null,
+      "longitude": null
+    },
+
+    "contact": {
+      "emergency": "102",
+      "stationPhone": "02589-90533",
+      "mobile": "01901-022381",
+      "email": "bog.bgr@fireservice.gov.bd"
+    },
+
+    "administration": {
+      "stationOfficer": "Senior Station Officer",
+      "sanctionedManpower": null,
+      "currentManpower": null
+    },
+
+    "coverageArea": [
+      "Bogura Sadar",
+      "Bogura Municipality",
+      "Nearby urban and high-risk areas"
+    ],
+
+    "services": [
+      "Fire suppression",
+      "Rescue operations",
+      "Road accident rescue",
+      "Emergency response",
+      "Fire prevention",
+      "Fire safety inspection",
+      "Disaster response",
+      "Public awareness"
+    ],
+
+    "description": "Bogura Fire Station is a major emergency-response facility of the Bangladesh Fire Service and Civil Defence. The station provides fire suppression, rescue operations, emergency response and disaster-management support in Bogura and surrounding areas according to operational requirements. Its services can include responding to building fires, road accidents, industrial incidents and other emergencies requiring specialized rescue equipment. The station also supports fire-prevention activities and public awareness regarding fire safety. According to the official Bogura Fire Service directory, the station is managed by a Senior Station Officer and has an official station contact number and email address. Citizens should use the national emergency service 102 for urgent Fire Service assistance.",
+
+    "dataSource": "Bangladesh Fire Service & Civil Defence"
+  },
+
+  {
+    "type": "fire_service",
+    "name": "Kahaloo Fire Station",
+    "slug": "kahaloo-fire-station",
+    "district": "Bogura",
+    "division": "Rajshahi",
+    "country": "Bangladesh",
+
+    "establishmentYear": null,
+
+    "location": {
+      "address": "Kahaloo, Bogura, Bangladesh",
+      "latitude": null,
+      "longitude": null
+    },
+
+    "contact": {
+      "emergency": "102",
+      "stationPhone": "01901-022399",
+      "mobile": "01901-022398",
+      "email": "kahal.bgr@fireservice.gov.bd"
+    },
+
+    "administration": {
+      "stationOfficer": "Station Officer (In Charge)",
+      "sanctionedManpower": null,
+      "currentManpower": null
+    },
+
+    "coverageArea": ["Kahaloo Upazila", "Nearby rural and market areas"],
+
+    "services": [
+      "Fire fighting",
+      "Rescue operation",
+      "Emergency response",
+      "Accident rescue",
+      "Fire safety awareness",
+      "Disaster response"
+    ],
+
+    "description": "Kahaloo Fire Station provides emergency fire and rescue services for Kahaloo Upazila and nearby areas. Its main responsibilities include responding to fires, accidents and other emergencies requiring rescue or specialized emergency assistance. The station also supports fire-prevention awareness and safety activities within its operational area. According to the official Bogura Fire Service directory, the station has an official mobile and office contact number and an institutional email address. The station operates as part of Bangladesh Fire Service and Civil Defence and can coordinate with police, local administration, health services and other emergency agencies during major incidents.",
+
+    "dataSource": "Bangladesh Fire Service & Civil Defence"
+  },
+
+  {
+    "type": "fire_service",
+    "name": "Sherpur Fire Station",
+    "slug": "sherpur-fire-station",
+    "district": "Bogura",
+    "division": "Rajshahi",
+    "country": "Bangladesh",
+
+    "establishmentYear": null,
+
+    "location": {
+      "address": "Sherpur, Bogura, Bangladesh",
+      "latitude": null,
+      "longitude": null
+    },
+
+    "contact": {
+      "emergency": "102",
+      "stationPhone": "01901-022405",
+      "mobile": "01901-022404",
+      "email": "sher.bgr@fireservice.gov.bd"
+    },
+
+    "administration": {
+      "stationOfficer": "Station Officer (In Charge)",
+      "sanctionedManpower": null,
+      "currentManpower": null
+    },
+
+    "coverageArea": [
+      "Sherpur Upazila",
+      "Nearby highways and communities",
+      "Local commercial areas"
+    ],
+
+    "services": [
+      "Fire suppression",
+      "Rescue operations",
+      "Road accident rescue",
+      "Emergency response",
+      "Disaster response",
+      "Fire safety awareness"
+    ],
+
+    "description": "Sherpur Fire Station serves Sherpur Upazila and nearby areas with emergency fire and rescue services. Sherpur is connected with important transportation routes, so emergency response to road accidents and other incidents is an important part of its operational role. The station can respond to building fires, road accidents, rescue situations and other emergencies requiring Fire Service assistance. It also contributes to fire-safety awareness and prevention activities. The official Bogura Fire Service directory lists the station's mobile, office telephone and institutional email contact details. During major emergencies, the station can coordinate with police, hospitals, local administration and other emergency-response organizations.",
+
+    "dataSource": "Bangladesh Fire Service & Civil Defence"
+  },
+
+  {
+    "type": "fire_service",
+    "name": "Sonatala Fire Station",
+    "slug": "sonatala-fire-station",
+    "district": "Bogura",
+    "division": "Rajshahi",
+    "country": "Bangladesh",
+
+    "establishmentYear": null,
+
+    "location": {
+      "address": "Sonatala, Bogura, Bangladesh",
+      "latitude": null,
+      "longitude": null
+    },
+
+    "contact": {
+      "emergency": "102",
+      "stationPhone": "01901-022411",
+      "mobile": "01901-022410",
+      "email": "sona.bgr@fireservice.gov.bd"
+    },
+
+    "administration": {
+      "stationOfficer": "Station Officer",
+      "sanctionedManpower": null,
+      "currentManpower": null
+    },
+
+    "coverageArea": ["Sonatala Upazila", "Nearby rural communities"],
+
+    "services": [
+      "Fire fighting",
+      "Rescue operation",
+      "Emergency response",
+      "Accident rescue",
+      "Disaster response",
+      "Fire safety awareness"
+    ],
+
+    "description": "Sonatala Fire Station is responsible for providing fire and emergency rescue support in Sonatala Upazila and surrounding areas. Its operational responsibilities include responding to fires, road accidents, rescue situations and other emergencies requiring Fire Service assistance. The station also supports public awareness and prevention activities related to fire safety. It operates under Bangladesh Fire Service and Civil Defence and coordinates with local administration, police and medical services when an emergency requires multiple agencies. The official Bogura Fire Service directory lists its station officer, mobile number, office number and institutional email address.",
+
+    "dataSource": "Bangladesh Fire Service & Civil Defence"
+  },
+
+  {
+    "type": "fire_service",
+    "name": "Sariakandi Fire Station",
+    "slug": "sariakandi-fire-station",
+    "district": "Bogura",
+    "division": "Rajshahi",
+    "country": "Bangladesh",
+
+    "establishmentYear": null,
+
+    "location": {
+      "address": "Sariakandi, Bogura, Bangladesh",
+      "latitude": null,
+      "longitude": null
+    },
+
+    "contact": {
+      "emergency": "102",
+      "stationPhone": "01901-022403",
+      "mobile": "01901-022403",
+      "email": "sharia.bgr@fireservice.gov.bd"
+    },
+
+    "administration": {
+      "stationOfficer": "Station Officer",
+      "sanctionedManpower": null,
+      "currentManpower": null
+    },
+
+    "coverageArea": [
+      "Sariakandi Upazila",
+      "River-adjacent and rural communities"
+    ],
+
+    "services": [
+      "Fire fighting",
+      "Rescue",
+      "Emergency response",
+      "Accident rescue",
+      "Disaster response",
+      "Fire prevention"
+    ],
+
+    "description": "Sariakandi Fire Station provides emergency fire and rescue services to Sariakandi Upazila. Its responsibilities include fire suppression, rescue operations, emergency response and assistance during accidents and other disasters. Because Sariakandi contains rural and river-adjacent communities, emergency rescue and disaster-response capability is particularly important for local public safety. The station operates under Bangladesh Fire Service and Civil Defence and works with police, local administration and health services during larger incidents. Official contact information is maintained by the Bogura Fire Service authority.",
+
+    "dataSource": "Bangladesh Fire Service & Civil Defence"
+  },
+
+  {
+    "type": "fire_service",
+    "name": "Adamdighi Fire Station",
+    "slug": "adamdighi-fire-station",
+    "district": "Bogura",
+    "division": "Rajshahi",
+    "country": "Bangladesh",
+
+    "establishmentYear": null,
+
+    "location": {
+      "address": "Adamdighi, Bogura, Bangladesh",
+      "latitude": null,
+      "longitude": null
+    },
+
+    "contact": {
+      "emergency": "102",
+      "stationPhone": "01901-022387",
+      "mobile": "01901-022386",
+      "email": "adam.bgr@fireservice.gov.bd"
+    },
+
+    "administration": {
+      "stationOfficer": "Station Officer (In Charge)",
+      "sanctionedManpower": null,
+      "currentManpower": null
+    },
+
+    "coverageArea": [
+      "Adamdighi Upazila",
+      "Nearby communities and commercial areas"
+    ],
+
+    "services": [
+      "Fire suppression",
+      "Rescue operation",
+      "Emergency response",
+      "Accident rescue",
+      "Fire prevention",
+      "Disaster response"
+    ],
+
+    "description": "Adamdighi Fire Station provides emergency fire, rescue and disaster-response services to Adamdighi Upazila and nearby areas. The station responds to fire incidents, accidents and other emergencies where specialized rescue support is required. It also contributes to fire-safety awareness and prevention activities. The station is part of Bangladesh Fire Service and Civil Defence and coordinates with local authorities and other emergency organizations during major incidents. Official station contact information, including mobile, office and institutional email, is maintained by the Bogura Fire Service authority.",
+
+    "dataSource": "Bangladesh Fire Service & Civil Defence"
+  },
+
+  {
+    "type": "fire_service",
+    "name": "Dupchanchia Fire Station",
+    "slug": "dupchanchia-fire-station",
+    "district": "Bogura",
+    "division": "Rajshahi",
+    "country": "Bangladesh",
+
+    "establishmentYear": null,
+
+    "location": {
+      "address": "Dupchanchia, Bogura, Bangladesh",
+      "latitude": null,
+      "longitude": null
+    },
+
+    "contact": {
+      "emergency": "102",
+      "stationPhone": "01901-022393",
+      "mobile": "01901-022392",
+      "email": "dupcha.bgr@fireservice.gov.bd"
+    },
+
+    "administration": {
+      "stationOfficer": "Station Officer (In Charge)",
+      "sanctionedManpower": null,
+      "currentManpower": null
+    },
+
+    "coverageArea": [
+      "Dupchanchia Upazila",
+      "Nearby rural and commercial communities"
+    ],
+
+    "services": [
+      "Fire fighting",
+      "Rescue operation",
+      "Emergency response",
+      "Accident rescue",
+      "Disaster response",
+      "Fire safety awareness"
+    ],
+
+    "description": "Dupchanchia Fire Station provides fire and rescue services for Dupchanchia Upazila and surrounding communities. Its main functions include responding to fires, accidents, rescue situations and other emergencies. The station also supports fire-prevention and public-awareness activities to reduce fire-related risks. It operates under Bangladesh Fire Service and Civil Defence and can coordinate with police, local administration and healthcare services during major emergencies. The official Bogura Fire Service directory provides the station's contact information and identifies its responsible station officer.",
+
+    "dataSource": "Bangladesh Fire Service & Civil Defence"
+  },
+
+  {
+    "type": "fire_service",
+    "name": "Nandigram Fire Station",
+    "slug": "nandigram-fire-station",
+    "district": "Bogura",
+    "division": "Rajshahi",
+    "country": "Bangladesh",
+
+    "establishmentYear": null,
+
+    "location": {
+      "address": "Nandigram, Bogura, Bangladesh",
+      "latitude": null,
+      "longitude": null
+    },
+
+    "contact": {
+      "emergency": "102",
+      "stationPhone": "01901-022401",
+      "mobile": "01901-022400",
+      "email": "nondi.bgr@fireservice.gov.bd"
+    },
+
+    "administration": {
+      "stationOfficer": "Station Officer (In Charge)",
+      "sanctionedManpower": null,
+      "currentManpower": null
+    },
+
+    "coverageArea": ["Nandigram Upazila", "Nearby rural and market areas"],
+
+    "services": [
+      "Fire fighting",
+      "Rescue",
+      "Emergency response",
+      "Accident rescue",
+      "Disaster response",
+      "Fire prevention"
+    ],
+
+    "description": "Nandigram Fire Station serves Nandigram Upazila with emergency fire and rescue services. It responds to fire incidents, road accidents, rescue situations and other emergencies that require Fire Service intervention. The station also has a role in public fire-safety awareness and prevention activities. As a unit of Bangladesh Fire Service and Civil Defence, it coordinates with local government, police and medical services when necessary. Official station contact details are published by the Bogura Fire Service authority and include a mobile number, office number and institutional email address.",
+
+    "dataSource": "Bangladesh Fire Service & Civil Defence"
+  },
+
+  {
+    "type": "fire_service",
+    "name": "Dhunat Fire Station",
+    "slug": "dhunat-fire-station",
+    "district": "Bogura",
+    "division": "Rajshahi",
+    "country": "Bangladesh",
+
+    "establishmentYear": null,
+
+    "location": {
+      "address": "Dhunat, Bogura, Bangladesh",
+      "latitude": null,
+      "longitude": null
+    },
+
+    "contact": {
+      "emergency": "102",
+      "stationPhone": "01901-022391",
+      "mobile": "01901-022390",
+      "email": "dhuna.bgr@fireservice.gov.bd"
+    },
+
+    "administration": {
+      "stationOfficer": "Station Officer (In Charge)",
+      "sanctionedManpower": null,
+      "currentManpower": null
+    },
+
+    "coverageArea": [
+      "Dhunat Upazila",
+      "Rural communities within operational range"
+    ],
+
+    "services": [
+      "Fire suppression",
+      "Rescue operation",
+      "Emergency response",
+      "Accident rescue",
+      "Disaster response",
+      "Fire prevention"
+    ],
+
+    "description": "Dhunat Fire Station is an emergency-response facility serving Dhunat Upazila. It provides fire suppression, rescue operations and emergency assistance during fires, accidents and other hazardous incidents. The station also supports disaster-response and fire-prevention activities in the local community. It operates as part of Bangladesh Fire Service and Civil Defence and coordinates with police, local administration and healthcare providers when incidents require multi-agency response. The official Bogura Fire Service directory lists the station's contact details and responsible station officer.",
+
+    "dataSource": "Bangladesh Fire Service & Civil Defence"
+  },
+
+  {
+    "type": "fire_service",
+    "name": "Shibganj Fire Station",
+    "slug": "shibganj-fire-station",
+    "district": "Bogura",
+    "division": "Rajshahi",
+    "country": "Bangladesh",
+
+    "establishmentYear": null,
+
+    "location": {
+      "address": "Shibganj, Bogura, Bangladesh",
+      "latitude": null,
+      "longitude": null
+    },
+
+    "contact": {
+      "emergency": "102",
+      "stationPhone": "01901-022407",
+      "mobile": "01901-022406",
+      "email": "shib.bgr@fireservice.gov.bd"
+    },
+
+    "administration": {
+      "stationOfficer": "Station Officer (In Charge)",
+      "sanctionedManpower": null,
+      "currentManpower": null
+    },
+
+    "coverageArea": [
+      "Shibganj Upazila",
+      "Mahasthan and nearby communities",
+      "Rural and commercial areas"
+    ],
+
+    "services": [
+      "Fire fighting",
+      "Rescue operation",
+      "Emergency response",
+      "Accident rescue",
+      "Disaster response",
+      "Fire safety awareness"
+    ],
+
+    "description": "Shibganj Fire Station provides emergency fire and rescue services throughout Shibganj Upazila. Its responsibilities include fire suppression, accident rescue, emergency response and assistance during disasters or other incidents requiring specialized rescue capability. The station can coordinate with local police, administration and medical services during large-scale emergencies. Shibganj contains important historical and tourist locations, including the Mahasthan area, which makes emergency preparedness and public safety particularly relevant. The official Bogura Fire Service directory lists the station's contact numbers and institutional email address.",
+
+    "dataSource": "Bangladesh Fire Service & Civil Defence"
+  },
+
+  {
+    "type": "fire_service",
+    "name": "Gabtali Fire Station",
+    "slug": "gabtali-fire-station",
+    "district": "Bogura",
+    "division": "Rajshahi",
+    "country": "Bangladesh",
+
+    "establishmentYear": null,
+
+    "location": {
+      "address": "Gabtali, Bogura, Bangladesh",
+      "latitude": null,
+      "longitude": null
+    },
+
+    "contact": {
+      "emergency": "102",
+      "stationPhone": "01901-022395",
+      "mobile": "01901-022394",
+      "email": "gab.bgr@fireservice.gov.bd"
+    },
+
+    "administration": {
+      "stationOfficer": "Station Officer (In Charge)",
+      "sanctionedManpower": null,
+      "currentManpower": null
+    },
+
+    "coverageArea": [
+      "Gabtali Upazila",
+      "Nearby rural communities",
+      "Local market and transport areas"
+    ],
+
+    "services": [
+      "Fire suppression",
+      "Rescue operation",
+      "Emergency response",
+      "Road accident rescue",
+      "Disaster response",
+      "Fire prevention"
+    ],
+
+    "description": "Gabtali Fire Station provides emergency fire and rescue services to Gabtali Upazila and surrounding areas. The station responds to fires, accidents and other emergencies that require trained rescue personnel and specialized equipment. It also supports public awareness and prevention activities related to fire safety. As a unit of Bangladesh Fire Service and Civil Defence, it coordinates with police, local administration and healthcare services during major incidents. Official contact details for the station are published by the Bogura Fire Service authority and include mobile, office and institutional email information.",
+
+    "dataSource": "Bangladesh Fire Service & Civil Defence"
+  },
+
+  {
+    "type": "fire_service",
+    "name": "Shajahanpur Fire Station",
+    "slug": "shajahanpur-fire-station",
+    "district": "Bogura",
+    "division": "Rajshahi",
+    "country": "Bangladesh",
+
+    "establishmentYear": null,
+
+    "location": {
+      "address": "Shajahanpur, Bogura, Bangladesh",
+      "latitude": null,
+      "longitude": null
+    },
+
+    "contact": {
+      "emergency": "102",
+      "stationPhone": "01901-022413",
+      "mobile": "01901-022412",
+      "email": "shaja.bgr@fireservice.gov.bd"
+    },
+
+    "administration": {
+      "stationOfficer": "Station Officer",
+      "sanctionedManpower": null,
+      "currentManpower": null
+    },
+
+    "coverageArea": [
+      "Shajahanpur Upazila",
+      "Nearby urban and rural communities",
+      "Important transport corridors"
+    ],
+
+    "services": [
+      "Fire fighting",
+      "Rescue",
+      "Emergency response",
+      "Road accident rescue",
+      "Disaster response",
+      "Fire prevention and awareness"
+    ],
+
+    "description": "Shajahanpur Fire Station provides fire and emergency rescue services to Shajahanpur Upazila and nearby areas. Its main responsibilities include responding to fires, road accidents, rescue incidents and other emergencies. The station also contributes to fire-prevention and public-awareness activities. Because Shajahanpur includes important roads and developing urban and industrial areas, rapid emergency response is an important part of its public-safety role. The station operates under Bangladesh Fire Service and Civil Defence and coordinates with police, local administration and medical services during major incidents. Official station contact information is available through the Bogura Fire Service authority.",
+
+    "dataSource": "Bangladesh Fire Service & Civil Defence"
+  }
+]
