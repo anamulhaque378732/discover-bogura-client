@@ -1,4 +1,4 @@
-import { Link } from "react-router";
+import { Link, useLocation, useNavigate } from "react-router";
 import { FaEyeSlash } from "react-icons/fa";
 import GoogleLogin from "../SocialLogin/GoogleLogin";
 import { useState } from "react";
@@ -12,18 +12,21 @@ import Swal from "sweetalert2";
 
 const Login = () => {
   const [showPassword, setShowPassword] = useState(false);
+  const location = useLocation();
+
+  const navigate = useNavigate();
 
   const {
     register,
     handleSubmit,
     formState: { errors },
-    refetch,
   } = useForm();
 
   const { signInUser } = UseAuth();
 
   const handleLogin = (data) => {
     const { email, password } = data;
+
     signInUser(email, password)
       .then((result) => {
         Swal.fire({
@@ -33,8 +36,11 @@ const Login = () => {
           timer: 2000,
           showConfirmButton: false,
         });
+        navigate(location?.state || "/");
       })
       .catch((error) => {
+        console.log(error);
+
         Swal.fire({
           icon: "error",
           title: "Login Failed!",
@@ -43,8 +49,6 @@ const Login = () => {
           confirmButtonColor: "#d33",
         });
       });
-
-    refetch();
   };
 
   return (
@@ -58,7 +62,7 @@ const Login = () => {
         </h2>
         <p className="text-sm text-center dark:text-gray-600">
           Dont have account? please Register
-          <Link to="/register">
+          <Link state={location?.state} to="/register">
             <button className="btn btn-secondary ml-2">Register</button>
           </Link>
         </p>
@@ -75,7 +79,6 @@ const Login = () => {
         <form
           onSubmit={handleSubmit(handleLogin)}
           noValidate=""
-          action=""
           className="space-y-8"
         >
           <div className="space-y-4">
@@ -129,7 +132,7 @@ const Login = () => {
             </div>
           </div>
           <button
-            type="button"
+            type="submit"
             className="w-full px-8 py-3 font-semibold rounded-md dark:bg-violet-600 dark:text-gray-50"
           >
             Login

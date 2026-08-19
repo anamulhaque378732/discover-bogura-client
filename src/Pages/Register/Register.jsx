@@ -1,5 +1,5 @@
 import { FaEyeSlash } from "react-icons/fa";
-import { Link } from "react-router";
+import { Link, useLocation, useNavigate } from "react-router";
 import GoogleLogin from "../SocialLogin/GoogleLogin";
 import { IoEye } from "react-icons/io5";
 import { useState } from "react";
@@ -9,25 +9,59 @@ import UseAuth from "../../Hooks/UseAuth";
 import Swal from "sweetalert2";
 import FacebookLogin from "../SocialLogin/FacebookLogin";
 import GithubLogin from "../SocialLogin/GithubLogin";
+import axios from "axios";
 
 const Register = () => {
   const [showPassword, setShowPassword] = useState(false);
+  const location = useLocation();
+  const navigate = useNavigate();
 
   const {
     register,
     handleSubmit,
     formState: { errors },
-    refetch,
   } = useForm();
 
-  const { registerUser } = UseAuth();
+  const { registerUser, updateUserProfile } = UseAuth();
 
   const handleRegister = (data) => {
     const { name, photo, email, password } = data;
 
+    const profileImage = photo[0];
+
     registerUser(email, password)
-      .then((res) => {
-        console.log(res.user);
+      .then((result) => {
+        console.log(result.user);
+
+        // store the image and get the photo url
+        const formData = new FormData();
+
+        formData.append("image", profileImage);
+
+        const imageApiUrl = `https://api.imgbb.com/1/upload?key=${import.meta.env.VITE_image_host}`;
+
+        axios.post(imageApiUrl, formData).then((res) => {
+          // update user profile to firebase
+
+          const userProfile = {
+            displayName: data.name,
+            photoURL: res.data.data.url,
+          };
+
+          updateUserProfile(userProfile)
+            .then(() => {
+              navigate(location?.state || "/");
+            })
+            .catch((error) => {
+              console.log(error.code);
+
+              Swal.fire({
+                icon: "error",
+                title: "Profile Error!",
+                text: ` ${error.message}`,
+              });
+            });
+        });
       })
       .catch((error) => {
         Swal.fire({
@@ -36,8 +70,6 @@ const Register = () => {
           text: ` ${error.message}`,
         });
       });
-
-    refetch();
   };
 
   return (
@@ -51,7 +83,7 @@ const Register = () => {
         </h2>
         <p className="text-sm text-center dark:text-gray-600">
           Have an account? please Login
-          <Link to="/login">
+          <Link state={location?.state} to="/login">
             <button className="btn btn-primary ml-2">Login</button>
           </Link>
         </p>
@@ -98,7 +130,7 @@ const Register = () => {
               </div>
               <input
                 type="file"
-                {...register("photo")}
+                {...register("photo", { required: true })}
                 name="photo"
                 placeholder="*****"
                 className="w-full px-3 py-2 border rounded-md dark:border-gray-300 dark:bg-gray-50 dark:text-gray-800 focus:dark:border-violet-600"
