@@ -1,3 +1,4 @@
+import { Link } from "react-router";
 import banner from "../../../assets/banner.png";
 
 const Banner = () => {
@@ -27,11 +28,16 @@ const Banner = () => {
               1000+ Educational Institutions
             </p>
             <p className="text-xl text-secondary font-medium py-1">
-              20+ Tourist{" "}
+              20+ Tourist
             </p>
             <p className="text-xl text-secondary font-medium py-1">
               Attractions 30+ Notable Personalities
             </p>
+            <Link to="/allUpazilas">
+              <button className="text-primary btn md:mt-8 text-xl">
+                View All Upazila
+              </button>
+            </Link>
           </div>
         </div>
       </div>

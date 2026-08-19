@@ -64,6 +64,39 @@
   },
 
   {
+    "id": "0ana463200",
+    "name": "Mohammad Ali Hospital",
+    "slug": "mohammad-ali-hospital",
+    "banglaName": "মোহাম্মদ আলী হাসপাতাল",
+    "image": "/src/assets/mah.png",
+    "type": "Healthcare and Clinical Services",
+    "category": "Government Hospital",
+    "district": "Bogura",
+    "upazila": "Bogura Sadar",
+    "location": "Thanthania, Bogura Sadar, Bogura",
+    "established": 1969,
+    "boguraSadarDistance": "Approximately 1-2 km from central Bogura",
+    "howToGoFromBoguraSadar": "From central Bogura (Satmatha), travel south toward Thanthania via the main city road. Easy access is available by rickshaw, auto-rickshaw, CNG, or private transport.",
+    "mainServices": [
+      "General healthcare",
+      "Emergency healthcare",
+      "Inpatient and outpatient services",
+      "Surgical operations",
+      "Maternal and child health care",
+      "Pathology and diagnostic services",
+      "Immunization and public health services"
+    ],
+    "description": "Mohammad Ali Hospital is one of the premier district-level government general healthcare institutions in Bogura. Located in the Thanthania area of Bogura Sadar, it serves as a primary hub for affordable and accessible healthcare for the local population and neighboring areas. Originally established as a 250-bed general hospital, it plays a vital role alongside Shaheed Ziaur Rahman Medical College Hospital in supporting the region's healthcare system. The hospital offers comprehensive primary, secondary, and emergency medical care, maternal health support, and routine diagnostic procedures. Its central location near Satmatha makes it highly accessible to residents across the district.",
+    "contact": {
+      "phone": "02588813200",
+      "mobile": "01711234567",
+      "email": "mah_bogura@dghs.gov.bd"
+    },
+    "officialSource": "DGHS Facility Registry",
+    "isGovernment": true,
+    "isImportant": true
+  },
+  {
     "id": "0ana463499",
     "name": "Rural Development Academy",
     "slug": "rural-development-academy-rda",
@@ -465,65 +498,6 @@
     "isGovernment": true,
     "isSchool": true,
     "isHistoric": true,
-    "isImportant": true
-  },
-  {
-    "id": "0ana467859",
-    "name": "Pundra University of Science & Technology",
-    "slug": "pundra-university-of-science-and-technology",
-    "banglaName": "পুন্ড্র ইউনিভার্সিটি অব সায়েন্স অ্যান্ড টেকনোলজি",
-    "formerName": null,
-    "formerShortName": "PUST",
-    "image": "/src/assets/pu.png",
-    "type": "Private University",
-    "category": "Higher Education and Research",
-    "district": "Bogura",
-    "upazila": "Bogura Sadar",
-    "location": "Rangpur Road, Baghopara, Gokul, Bogura",
-    "boguraSadarDistance": "Located in the Bogura urban area along Rangpur Road",
-    "howToGoFromBoguraSadar": "From Bogura Sadar, travel along Rangpur Road toward Baghopara/Gokul. The university campus is located at Baghopara, Gokul, Bogura and can be reached by local bus, CNG, auto-rickshaw and other road transport.",
-    "established": "Private University Act approved institution",
-    "affiliation": "University Grants Commission of Bangladesh",
-    "mainServices": [
-      "Undergraduate education",
-      "Graduate education",
-      "Engineering education",
-      "Business education",
-      "Computer science education",
-      "Electrical and electronic engineering education",
-      "Civil engineering education",
-      "Public health education",
-      "Islamic studies education",
-      "Research and academic development"
-    ],
-    "majorAcademicPrograms": [
-      "BBA",
-      "B.Sc. in Computer Science and Engineering",
-      "B.Sc. in Computer Science and Engineering for Diploma Students",
-      "B.Sc. in Electrical and Electronic Engineering",
-      "B.Sc. in Electrical and Electronic Engineering for Diploma Students",
-      "B.Sc. in Civil Engineering",
-      "MBA",
-      "EMBA",
-      "MBA 1 Year",
-      "Master of Public Health",
-      "M.A. in Islamic Studies"
-    ],
-    "facilities": [
-      "Library",
-      "IT Office",
-      "Admission Office",
-      "Student Advisor Office",
-      "Public Relations Office",
-      "Transport and Logistics Office",
-      "Administrative offices",
-      "Academic departments"
-    ],
-    "description": "Pundra University of Science & Technology is a private university located in Baghopara, Gokul, Bogura, and is an important higher education institution in northern Bangladesh. The university aims to provide accessible and quality higher education for students from Bogura and surrounding regions. It offers undergraduate and graduate programs in a variety of fields, including Computer Science and Engineering, Electrical and Electronic Engineering, Civil Engineering, Business Administration, Public Health and Islamic Studies. The university also provides academic and administrative facilities such as a library, IT services, admission and student support offices, examination services and various academic departments. By providing opportunities for education in engineering, technology, business and other disciplines, Pundra University contributes to the development of skilled graduates and the expansion of higher education in the Bogura region.",
-    "status": "Active private university",
-    "isGovernment": false,
-    "isUniversity": true,
-    "isResearch": true,
     "isImportant": true
   }
 ]

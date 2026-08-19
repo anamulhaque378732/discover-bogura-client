@@ -12,6 +12,8 @@ import TouristPlaces from "../Pages/TouristPlaces/TouristPlaces";
 import FamousPeople from "../Pages/FamousPeople/FamousPeople";
 import FamousFood from "../Pages/FamousFood/FamousFood";
 import MoreDetailsInPopularPlace from "../Pages/MoreDetailsInPopularPlace/MoreDetailsInPopularPlace";
+import UpazilasLayout from "../Layouts/UpazilasLayout";
+import Allupazilas from "../Pages/AllUpazilas/Allupazilas";
 
 export const router = createBrowserRouter([
   {
@@ -21,7 +23,10 @@ export const router = createBrowserRouter([
     children: [
       {
         index: true,
-        loader: () => fetch("./importantPlace.json"),
+        loader: async () => {
+          const res = await fetch("/importantPlace.json");
+          return res.json();
+        },
         Component: Home,
         hydrateFallbackElement: <Loading />,
       },
@@ -31,6 +36,7 @@ export const router = createBrowserRouter([
         loader: () => fetch("./moreAbout.json"),
         hydrateFallbackElement: <Loading></Loading>,
       },
+
       {
         path: "/thana",
         Component: Thana,
@@ -49,6 +55,20 @@ export const router = createBrowserRouter([
       },
     ],
   },
+  {
+    path: "/moreDetailsInPopularPlace/:id",
+    loader: async ({ params }) => {
+      const res = await fetch("/importantPlace.json");
+      const data = await res.json();
+      const singlePlace = data.find(
+        (item) => String(item.id) === String(params.id),
+      );
+
+      return singlePlace;
+    },
+    Component: MoreDetailsInPopularPlace,
+    hydrateFallbackElement: <Loading></Loading>,
+  },
 
   {
     path: "/",
@@ -65,17 +85,13 @@ export const router = createBrowserRouter([
     ],
   },
   {
-    path: "/moreDetailsInPopularPlace/:id",
-    loader: async ({ params }) => {
-      const res = await fetch("/importantPlace.json");
-      const data = await res.json();
-      const singlePlace = data.find(
-        (item) => String(item.id) === String(params.id),
-      );
-
-      return singlePlace;
-    },
-    Component: MoreDetailsInPopularPlace,
-    hydrateFallbackElement: <Loading></Loading>,
+    path: "/",
+    Component: UpazilasLayout,
+    children: [
+      {
+        path: "/allUpazilas",
+        Component: Allupazilas,
+      },
+    ],
   },
 ]);

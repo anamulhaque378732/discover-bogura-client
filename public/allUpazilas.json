@@ -1,0 +1,674 @@
+[
+  {
+    "id": "bogra-sadar",
+    "upazilaName": "Bogra Sadar",
+    "areaSqKm": 177.27,
+    "unionsCount": 11,
+    "pouroshovaCount": 1,
+    "description": "Bogra Sadar is the main administrative, commercial, and educational hub of Bogra District. Situated on the banks of the historic Karatoya River, this upazila acts as the heart of North Bengal's transport network, connecting several northern districts with Dhaka. It features key healthcare institutions like Shaheed Ziaur Rahman Medical College and Mohammad Ali Hospital, along with major commercial markets, historic landmarks like the Nawab Palace, and a booming industrial sector specializing in foundry and light engineering.",
+    "unions": [
+      {
+        "name": "Fultali",
+        "details": "Known for agricultural production and suburban growth near the main highway. Accessible from Bogra Sadar via auto-rickshaw or local bus along the Dhaka-Bogra highway (approx. 7 km)."
+      },
+      {
+        "name": "Gokul",
+        "details": "Famous for the historic Gokul Medh (Beula Lakshmindar's Medh), an ancient archaeological site. Accessible via CNG auto-rickshaw or local bus heading north on the Rangpur Road (approx. 10 km)."
+      },
+      {
+        "name": "Lahiri Para",
+        "details": "Primarily agricultural, producing significant quantities of rice and seasonal vegetables. Accessible via CNG or battery-operated auto-rickshaw from Matidali point (approx. 8 km)."
+      },
+      {
+        "name": "Namuja",
+        "details": "A prominent local business and agricultural union bordering Shibganj. Accessible via CNG auto-rickshaw from Chelopara or Charmatha (approx. 14 km)."
+      },
+      {
+        "name": "Nishindara",
+        "details": "An urbanizing union with expanding residential areas and small enterprises. Accessible easily within 15 mins from city center via CNG or rickshaw (approx. 4 km)."
+      },
+      {
+        "name": "Noongola",
+        "details": "Features extensive farmland and local fish farming ponds. Accessible via battery auto-rickshaw or CNG from Erulia route (approx. 9 km)."
+      },
+      {
+        "name": "Rajapur",
+        "details": "Known for poultry farms, dairy units, and paddy fields. Accessible via CNG from Charmatha bus terminal (approx. 11 km)."
+      },
+      {
+        "name": "Sekherkola",
+        "details": "A traditional rural union focused on crop cultivation and cottage industries. Accessible via CNG or local motorbikes from Matidali (approx. 12 km)."
+      },
+      {
+        "name": "Shakharia",
+        "details": "Situated along major transit routes, hosting small commercial establishments. Accessible via auto-rickshaw along the Rangpur national highway (approx. 6 km)."
+      },
+      {
+        "name": "Shabanggi",
+        "details": "Known for vegetable production supplying Bogra city markets. Accessible via CNG from Satmatha or Banani junction (approx. 8 km)."
+      },
+      {
+        "name": "Erulia",
+        "details": "Home to Bogra Airfield and expanding industrial activity. Accessible via local bus or CNG from Charmatha along Naogaon Road (approx. 8 km)."
+      }
+    ],
+    "policeStation": {
+      "name": "Bogra Sadar Police Station",
+      "location": "Nawab Bari Road, Bogra Town, Bogra Sadar, Bogra",
+      "contactNumbers": ["01320092222", "051-66022"]
+    },
+    "healthComplex": {
+      "name": "250-Bed Mohammad Ali Hospital / Sadar Health Center",
+      "location": "Jhautala, Bogra Sadar, Bogra",
+      "contactNumbers": ["051-66114"]
+    }
+  },
+  {
+    "id": "shajahanpur",
+    "upazilaName": "Shajahanpur",
+    "areaSqKm": 221.69,
+    "unionsCount": 9,
+    "pouroshovaCount": 0,
+    "description": "Formed as a separate upazila in 2003 by carving out southern parts of Sadar, Shajahanpur serves as a key strategic area housing the Majhira Cantonment. It lies directly along the N3 national highway, fostering rapid urban expansion and light industrial growth. The region's economy relies heavily on agriculture, livestock farming, and commerce tied to highway transportation services.",
+    "unions": [
+      {
+        "name": "Aria",
+        "details": "Famous for the Rural Development Academy (RDA) and agricultural research projects. Accessible via local bus or CNG down Dhaka Road from Bogra Sadar (approx. 12 km)."
+      },
+      {
+        "name": "Amrul",
+        "details": "An agricultural union known for rice milling and grain trade. Accessible via CNG auto-rickshaw from Majhira Cantonment area (approx. 16 km)."
+      },
+      {
+        "name": "Ashokkola",
+        "details": "Rapidly developing area benefiting from proximity to the N3 highway. Accessible via rickshaw or auto-rickshaw from Banani point (approx. 5 km)."
+      },
+      {
+        "name": "Chopar",
+        "details": "Focuses on vegetable growing and poultry farming. Accessible via CNG auto-rickshaw from Shajahanpur Upazila HQ (approx. 14 km)."
+      },
+      {
+        "name": "Gharinda",
+        "details": "A rural union with traditional farming and local haats. Accessible via CNG or motorbike from Majhira (approx. 18 km)."
+      },
+      {
+        "name": "Kharna",
+        "details": "Produces significant yields of paddy and winter vegetables. Accessible via CNG from Noymile stop along Dhaka Highway (approx. 15 km)."
+      },
+      {
+        "name": "Madla",
+        "details": "Known for fish hatcheries and rural agricultural markets. Accessible via CNG auto-rickshaw from Banani junction (approx. 10 km)."
+      },
+      {
+        "name": "Majhira",
+        "details": "Houses the Majhira Cantonment and major commercial areas. Accessible via direct local bus or CNG along Dhaka-Bogra highway (approx. 10 km)."
+      },
+      {
+        "name": "Gohail",
+        "details": "Focuses on dairy production and staple crop cultivation. Accessible via CNG from Banani or Bogra Sadar (approx. 12 km)."
+      }
+    ],
+    "policeStation": {
+      "name": "Shajahanpur Police Station",
+      "location": "Majhira, Shajahanpur, Bogra",
+      "contactNumbers": ["01320092230"]
+    },
+    "healthComplex": {
+      "name": "Shajahanpur Upazila Health Complex",
+      "location": "Noymile, Shajahanpur, Bogra",
+      "contactNumbers": ["01712000000"]
+    }
+  },
+  {
+    "id": "sherpur",
+    "upazilaName": "Sherpur",
+    "areaSqKm": 295.93,
+    "unionsCount": 10,
+    "pouroshovaCount": 1,
+    "description": "Sherpur is a historically rich upazila dating back to the Mughal period when it served as a strategic military post known as Sherpur Murcha. Today, it is famous for its thriving dairy industry, traditional sweets (Bogra Curd), and rice processing mills. Notable heritage sites include the 16th-century Kherua Mosque and the historical Bhabanipur Shakti Peeth temple complex.",
+    "unions": [
+      {
+        "name": "Bhabanipur",
+        "details": "Site of the renowned Bhabanipur Shakti Peeth temple, a major Hindu pilgrimage location. Accessible via CNG or private transport from Sherpur town via Mirzapur (approx. 15 km from Sherpur, 35 km from Bogra)."
+      },
+      {
+        "name": "Bishalpur",
+        "details": "Extensive paddy fields and prominent dairy farming. Accessible via CNG auto-rickshaw from Sherpur Bus Stand (approx. 10 km)."
+      },
+      {
+        "name": "Garidaha",
+        "details": "A busy commercial transit hub along the highway. Accessible via direct local bus or CNG along the Dhaka highway (approx. 20 km from Bogra)."
+      },
+      {
+        "name": "Khamarandi",
+        "details": "Focuses on rice farming and rural markets. Accessible via CNG or motorbike from Sherpur Town (approx. 8 km)."
+      },
+      {
+        "name": "Khanpur",
+        "details": "Traversed by small rivers; key source of freshwater fish and crops. Accessible via CNG auto-rickshaw from Sherpur town (approx. 12 km)."
+      },
+      {
+        "name": "Kusumbi",
+        "details": "Houses historic sites including the Kherua Mosque. Accessible via rickshaw or CNG auto-rickshaw from Sherpur center (approx. 3 km)."
+      },
+      {
+        "name": "Mirzapur",
+        "details": "Known for highway-side trade, brick kilns, and agriculture. Accessible directly via highway buses or CNG from Bogra/Sherpur (approx. 22 km from Bogra)."
+      },
+      {
+        "name": "Shitalpur",
+        "details": "A quiet rural union with rice and mustard farming. Accessible via CNG auto-rickshaw from Sherpur bus stand (approx. 9 km)."
+      },
+      {
+        "name": "Sughat",
+        "details": "Focuses on seasonal vegetable production and poultry. Accessible via CNG from Sherpur market (approx. 14 km)."
+      },
+      {
+        "name": "Sumserpur",
+        "details": "Known for grain trading and local trade centers. Accessible via CNG auto-rickshaw from Sherpur town (approx. 11 km)."
+      }
+    ],
+    "policeStation": {
+      "name": "Sherpur Police Station",
+      "location": "Adjacent to Sherpur Bus Stand, Sherpur, Bogra",
+      "contactNumbers": ["01320092240"]
+    },
+    "healthComplex": {
+      "name": "Sherpur Upazila Health Complex",
+      "location": "Hospital Road, Sherpur, Bogra",
+      "contactNumbers": ["01713382410"]
+    }
+  },
+  {
+    "id": "gabatali",
+    "upazilaName": "Gabatali",
+    "areaSqKm": 252.83,
+    "unionsCount": 11,
+    "pouroshovaCount": 1,
+    "description": "Located in the eastern-central part of the district, Gabatali is predominantly an agricultural upazila traversed by the Ichamati River. It is famous for hosting the centuries-old Poradaha Mela, a massive cultural and fish fair held annually. The local economy is driven by paddy, potato, and vegetable farming alongside small-scale rural markets.",
+    "unions": [
+      {
+        "name": "Baluatama",
+        "details": "Known for crop farming and livestock trade. Accessible via CNG auto-rickshaw from Gabatali railway station/town (approx. 6 km)."
+      },
+      {
+        "name": "Durgahata",
+        "details": "Site of traditional weekly haats for fish and agricultural produce. Accessible via CNG from Gabatali town or Sukhanpukur (approx. 8 km)."
+      },
+      {
+        "name": "Gabatali",
+        "details": "The central union encompassing local government offices and trade. Accessible via local train or CNG from Bogra Chelopara (approx. 12 km)."
+      },
+      {
+        "name": "Kagoil",
+        "details": "Main agricultural region with extensive paddy and potato fields. Accessible via CNG auto-rickshaw from Gabatali center (approx. 7 km)."
+      },
+      {
+        "name": "Mahishaban",
+        "details": "Famous for hosting the annual Poradaha Fish Fair. Accessible via CNG auto-rickshaw from Bogra Chelopara or Gabatali town (approx. 11 km)."
+      },
+      {
+        "name": "Naruamala",
+        "details": "Known for vegetable production and banana plantations. Accessible via CNG from Gabatali or Sukhanpukur route (approx. 9 km)."
+      },
+      {
+        "name": "Nashipur",
+        "details": "Focuses on rice and jute cultivation. Accessible via CNG from Gabatali town (approx. 5 km)."
+      },
+      {
+        "name": "Rameshwarpur",
+        "details": "Bordered by rivers; yields good harvests of pulse and grain. Accessible via CNG or motorbike from Gabatali market (approx. 10 km)."
+      },
+      {
+        "name": "Sonaray",
+        "details": "Features small cottage industries and agricultural land. Accessible via CNG from Bogra town or Gabatali (approx. 8 km)."
+      },
+      {
+        "name": "South Para",
+        "details": "A quiet rural union dependent on seasonal farming. Accessible via CNG auto-rickshaw from Gabatali (approx. 7 km)."
+      },
+      {
+        "name": "Taraf Sartaj",
+        "details": "Known for freshwater fish culture and paddy trading. Accessible via CNG from Gabatali center (approx. 4 km)."
+      }
+    ],
+    "policeStation": {
+      "name": "Gabatali Police Station",
+      "location": "Gabatali Bazar, Gabatali, Bogra",
+      "contactNumbers": ["01320092250"]
+    },
+    "healthComplex": {
+      "name": "Gabatali Upazila Health Complex",
+      "location": "Gabatali Sadar, Gabatali, Bogra",
+      "contactNumbers": ["01713382411"]
+    }
+  },
+  {
+    "id": "shibganj",
+    "upazilaName": "Shibganj",
+    "areaSqKm": 315.33,
+    "unionsCount": 12,
+    "pouroshovaCount": 1,
+    "description": "Shibganj is internationally renowned as the archaeological heartland of ancient Bengal. It houses Mahasthangarh, the ruins of Pundranagara dating back to the 3rd century BCE, along with key sites like Vasu Bihar and Bihar Hat Jami Mosque. Besides its archaeological importance, Shibganj is a major agricultural hub producing large yields of potatoes, vegetables, and paddy.",
+    "unions": [
+      {
+        "name": "Atmul",
+        "details": "Known for high-yield potato farming and cold storage facilities. Accessible via CNG auto-rickshaw from Mokamtala bus stop (approx. 8 km)."
+      },
+      {
+        "name": "Bihar",
+        "details": "Houses the ancient Vasu Bihar archaeological excavation site. Accessible via CNG auto-rickshaw from Mahasthangarh or Shibganj town (approx. 6 km from Mahasthan)."
+      },
+      {
+        "name": "Buriganja",
+        "details": "A commercial hub with regional vegetable distribution markets. Accessible via CNG from Shibganj town (approx. 7 km)."
+      },
+      {
+        "name": "Deoli",
+        "details": "Surrounds parts of historical Mahasthangarh ruins. Accessible via highway bus or CNG from Bogra Sadar along Rangpur Road (approx. 13 km)."
+      },
+      {
+        "name": "Kichak",
+        "details": "Major local trading center for paddy, potato, and spices. Accessible via CNG auto-rickshaw from Shibganj town or Mokamtala (approx. 12 km)."
+      },
+      {
+        "name": "Majhhatta",
+        "details": "Focused on banana and vegetable farming. Accessible via CNG auto-rickshaw from Shibganj center (approx. 9 km)."
+      },
+      {
+        "name": "Mokamtala",
+        "details": "A critical transit union connecting Bogra with Rangpur highway. Accessible via direct highway bus or CNG from Bogra town (approx. 20 km)."
+      },
+      {
+        "name": "Piramit",
+        "details": "Rural union with extensive rice processing. Accessible via CNG from Shibganj town (approx. 10 km)."
+      },
+      {
+        "name": "Raynagar",
+        "details": "Contains historic mounds and rich agricultural fields. Accessible via CNG from Mahasthangarh (approx. 5 km)."
+      },
+      {
+        "name": "Shaiygari",
+        "details": "Known for winter vegetable production. Accessible via CNG or motorbike from Shibganj center (approx. 8 km)."
+      },
+      {
+        "name": "Shibganj",
+        "details": "The administrative and urban core of the upazila. Accessible via CNG auto-rickshaw or local bus from Bogra Matidali/Charmatha (approx. 22 km)."
+      },
+      {
+        "name": "Panchdeoli",
+        "details": "Quiet agrarian region producing seasonal cash crops. Accessible via CNG from Mokamtala or Shibganj (approx. 11 km)."
+      }
+    ],
+    "policeStation": {
+      "name": "Shibganj Police Station",
+      "location": "Shibganj Sadar, Shibganj, Bogra",
+      "contactNumbers": ["01320092260"]
+    },
+    "healthComplex": {
+      "name": "Shibganj Upazila Health Complex",
+      "location": "Shibganj Town, Shibganj, Bogra",
+      "contactNumbers": ["01713382412"]
+    }
+  },
+  {
+    "id": "kahaloo",
+    "upazilaName": "Kahaloo",
+    "areaSqKm": 240.42,
+    "unionsCount": 9,
+    "pouroshovaCount": 1,
+    "description": "Situated west of Bogra Sadar, Kahaloo is a serene rural upazila with an economy largely centered around agrarian output and cottage industries. It plays a significant role in supplying rice and mustard to neighboring regions and features several cold storage facilities for agricultural preservation.",
+    "unions": [
+      {
+        "name": "Durgapur",
+        "details": "A commercial trade union situated on the highway to Western Bogra. Accessible via CNG auto-rickshaw from Charmatha bus terminal (approx. 8 km)."
+      },
+      {
+        "name": "Jamgram",
+        "details": "Known for rice cultivation and bamboo craft work. Accessible via CNG auto-rickshaw from Kahaloo railway station/town (approx. 7 km)."
+      },
+      {
+        "name": "Kahaloo",
+        "details": "The central administrative union and main trade market. Accessible via local train or CNG from Bogra Charmatha (approx. 11 km)."
+      },
+      {
+        "name": "Kalai",
+        "details": "Produces significant crops of paddy, mustard, and potatoes. Accessible via CNG from Kahaloo center (approx. 6 km)."
+      },
+      {
+        "name": "Malancha",
+        "details": "Focuses on vegetable cultivation and dairy production. Accessible via CNG auto-rickshaw from Kahaloo town (approx. 5 km)."
+      },
+      {
+        "name": "Murail",
+        "details": "Known for rice mills and local grain trading hubs. Accessible via CNG auto-rickshaw along Bogra-Santahar road (approx. 7 km from Bogra)."
+      },
+      {
+        "name": "Narhatta",
+        "details": "Rich in fish farming ponds and crop farming. Accessible via CNG from Kahaloo market (approx. 9 km)."
+      },
+      {
+        "name": "Paikar",
+        "details": "Agricultural region known for seed cultivation. Accessible via CNG auto-rickshaw from Kahaloo town (approx. 8 km)."
+      },
+      {
+        "name": "Shondha",
+        "details": "Rural region producing staple food grains. Accessible via CNG or motorbike from Kahaloo center (approx. 10 km)."
+      }
+    ],
+    "policeStation": {
+      "name": "Kahaloo Police Station",
+      "location": "Kahaloo Bazar, Kahaloo, Bogra",
+      "contactNumbers": ["01320092270"]
+    },
+    "healthComplex": {
+      "name": "Kahaloo Upazila Health Complex",
+      "location": "Kahaloo Sadar, Kahaloo, Bogra",
+      "contactNumbers": ["01713382413"]
+    }
+  },
+  {
+    "id": "duchanchia",
+    "upazilaName": "Dupchanchia",
+    "areaSqKm": 162.45,
+    "unionsCount": 6,
+    "pouroshovaCount": 2,
+    "description": "Dupchanchia is a major commercial center in western Bogra, widely famous for its concentration of automatic rice mills and grain trading hubs. The upazila acts as a vital grain wholesale processing and distribution point connecting Naogaon and Joypurhat districts with central Bangladesh.",
+    "unions": [
+      {
+        "name": "Chowmuhani",
+        "details": "Key trade union with heavy highway transport traffic. Accessible via direct bus or CNG along Naogaon Road from Bogra (approx. 18 km)."
+      },
+      {
+        "name": "Dupchanchia",
+        "details": "Central union known for rice mills and wholesale trade. Accessible via regional bus or CNG from Bogra Charmatha (approx. 20 km)."
+      },
+      {
+        "name": "Gobindapur",
+        "details": "Agricultural hub for paddy and potato farming. Accessible via CNG auto-rickshaw from Dupchanchia bus stand (approx. 6 km)."
+      },
+      {
+        "name": "Gunahar",
+        "details": "Famous for the historic Talora region and brass handicraft industries. Accessible via CNG or local train via Talora station (approx. 8 km from Dupchanchia)."
+      },
+      {
+        "name": "Zia Nagar",
+        "details": "Focuses on grain cultivation and small business units. Accessible via CNG auto-rickshaw from Dupchanchia town (approx. 7 km)."
+      },
+      {
+        "name": "Talora",
+        "details": "A major industrial union featuring railway connections and rice mills. Accessible via local train or CNG from Bogra / Dupchanchia (approx. 18 km from Bogra)."
+      }
+    ],
+    "policeStation": {
+      "name": "Dupchanchia Police Station",
+      "location": "Bus Stand Area, Dupchanchia, Bogra",
+      "contactNumbers": ["01320092280"]
+    },
+    "healthComplex": {
+      "name": "Dupchanchia Upazila Health Complex",
+      "location": "Dupchanchia Town, Dupchanchia, Bogra",
+      "contactNumbers": ["01713382414"]
+    }
+  },
+  {
+    "id": "adamdighi",
+    "upazilaName": "Adamdighi",
+    "areaSqKm": 168.83,
+    "unionsCount": 6,
+    "pouroshovaCount": 2,
+    "description": "Bordering Naogaon District, Adamdighi is notable for Santahar, a major railway junction town and the site of the Santahar Silo, one of the nation's largest food grain storage complexes. The region relies heavily on railway transport commerce, rice milling, and freshwater fish cultivation.",
+    "unions": [
+      {
+        "name": "Adamdighi",
+        "details": "Central administrative union with grain processing centers. Accessible via bus or CNG along Bogra-Naogaon highway (approx. 33 km from Bogra)."
+      },
+      {
+        "name": "Chhatingram",
+        "details": "Focuses on commercial fish hatcheries and farming. Accessible via CNG auto-rickshaw from Adamdighi bus stop (approx. 6 km)."
+      },
+      {
+        "name": "Kundagram",
+        "details": "Agrarian region producing high yields of paddy. Accessible via CNG from Adamdighi center (approx. 8 km)."
+      },
+      {
+        "name": "Nashratpur",
+        "details": "Situated along railway lines, active in local trade. Accessible via local train or CNG from Adamdighi/Santahar (approx. 5 km)."
+      },
+      {
+        "name": "Santahar",
+        "details": "Famous for the railway junction, Santahar Silo, and commercial trade. Accessible via direct train, inter-district bus, or CNG from Bogra (approx. 36 km)."
+      },
+      {
+        "name": "Santanagar",
+        "details": "Known for agricultural production and local haats. Accessible via CNG auto-rickshaw from Santahar town (approx. 4 km)."
+      }
+    ],
+    "policeStation": {
+      "name": "Adamdighi Police Station",
+      "location": "Adamdighi Sadar, Adamdighi, Bogra",
+      "contactNumbers": ["01320092290"]
+    },
+    "healthComplex": {
+      "name": "Adamdighi Upazila Health Complex",
+      "location": "Adamdighi Town, Adamdighi, Bogra",
+      "contactNumbers": ["01713382415"]
+    }
+  },
+  {
+    "id": "nandigram",
+    "upazilaName": "Nandigram",
+    "areaSqKm": 265.47,
+    "unionsCount": 5,
+    "pouroshovaCount": 1,
+    "description": "Located in the southwestern corner of Bogra near Natore, Nandigram is often referred to as a grain bowl due to its vast, fertile agricultural plains. Paddy cultivation dominates local livelihoods, supported by extensive irrigation networks and seasonal wetland ecosystems.",
+    "unions": [
+      {
+        "name": "Bhatra",
+        "details": "Major paddy cultivation zone with several agricultural cooperatives. Accessible via CNG auto-rickshaw from Nandigram town or Kundar Hat (approx. 8 km)."
+      },
+      {
+        "name": "Bhatgram",
+        "details": "Focuses on seasonal grain production and livestock rearing. Accessible via CNG auto-rickshaw from Nandigram center (approx. 6 km)."
+      },
+      {
+        "name": "Buroil",
+        "details": "Known for wetland agriculture and fish farming during monsoon. Accessible via CNG or motorbike from Nandigram (approx. 10 km)."
+      },
+      {
+        "name": "Nandigram",
+        "details": "The main urbanizing administrative union. Accessible via direct Natore-bound bus or CNG from Bogra Charmatha (approx. 19 km)."
+      },
+      {
+        "name": "Thalta Majhgram",
+        "details": "Extensive rice fields and traditional rural pottery output. Accessible via CNG auto-rickshaw from Nandigram bazaar (approx. 12 km)."
+      }
+    ],
+    "policeStation": {
+      "name": "Nandigram Police Station",
+      "location": "Nandigram Bazar, Nandigram, Bogra",
+      "contactNumbers": ["01320092300"]
+    },
+    "healthComplex": {
+      "name": "Nandigram Upazila Health Complex",
+      "location": "Nandigram Town, Nandigram, Bogra",
+      "contactNumbers": ["01713382416"]
+    }
+  },
+  {
+    "id": "dhunat",
+    "upazilaName": "Dhunat",
+    "areaSqKm": 247.73,
+    "unionsCount": 10,
+    "pouroshovaCount": 1,
+    "description": "Situated in the southeastern region bordering Sirajganj, Dhunat is bounded by the Bangali and Jamuna rivers. The riverine landscape drives an economy focused on agriculture, jute processing, and fishing, though seasonal riverbank erosion remains a critical local ecological topic.",
+    "unions": [
+      {
+        "name": "Bhandarbari",
+        "details": "Located near river embankments, dependent on fishing and farming. Accessible via CNG auto-rickshaw from Dhunat town (approx. 12 km)."
+      },
+      {
+        "name": "Chaukibari",
+        "details": "Focuses on jute processing and grain production. Accessible via CNG auto-rickshaw from Dhunat center (approx. 5 km)."
+      },
+      {
+        "name": "Dhunat",
+        "details": "The central administrative and trade union. Accessible via direct bus or CNG auto-rickshaw from Bogra Satmatha/Banani (approx. 32 km)."
+      },
+      {
+        "name": "Elangi",
+        "details": "Known for vegetable production and dairy units. Accessible via CNG auto-rickshaw from Dhunat town (approx. 7 km)."
+      },
+      {
+        "name": "Gopalnagar",
+        "details": "Agricultural region producing rice, pulse, and mustard. Accessible via CNG from Dhunat market (approx. 9 km)."
+      },
+      {
+        "name": "Gosaibari",
+        "details": "A prominent local commercial market for agricultural produce. Accessible via CNG auto-rickshaw from Dhunat town (approx. 10 km)."
+      },
+      {
+        "name": "Kalerpara",
+        "details": "Known for riverine soil cultivation and crop yield. Accessible via CNG or motorbike from Dhunat town (approx. 8 km)."
+      },
+      {
+        "name": "Mathurapur",
+        "details": "Produces significant quantities of chili, jute, and paddy. Accessible via CNG auto-rickshaw from Dhunat market (approx. 11 km)."
+      },
+      {
+        "name": "Nimgachhi",
+        "details": "Focuses on fish farming and seasonal crops. Accessible via CNG auto-rickshaw from Sherpur or Dhunat route (approx. 8 km)."
+      },
+      {
+        "name": "Vimpur",
+        "details": "Quiet agrarian region with traditional farming. Accessible via CNG auto-rickshaw from Dhunat center (approx. 6 km)."
+      }
+    ],
+    "policeStation": {
+      "name": "Dhunat Police Station",
+      "location": "Dhunat Sadar, Dhunat, Bogra",
+      "contactNumbers": ["01320092310"]
+    },
+    "healthComplex": {
+      "name": "Dhunat Upazila Health Complex",
+      "location": "Dhunat Town, Dhunat, Bogra",
+      "contactNumbers": ["01713382417"]
+    }
+  },
+  {
+    "id": "sariakandi",
+    "upazilaName": "Sariakandi",
+    "areaSqKm": 408.5,
+    "unionsCount": 12,
+    "pouroshovaCount": 1,
+    "description": "Sariakandi is the largest upazila in Bogra by area, defined by the expansive Jamuna River and its numerous riverine char islands (shoals). It is famous for its scenic riverbanks like Prem Jamunar Ghat, which attract eco-tourists, while its char dwellers engage in crop farming (peppers, maize, jute) and seasonal fishing.",
+    "unions": [
+      {
+        "name": "Baluakandi",
+        "details": "Char-based union producing red chili, maize, and groundnut. Accessible via CNG to river ghat, then local engine boat (trawler)."
+      },
+      {
+        "name": "Bohail",
+        "details": "Situated on river shoals; active in seasonal river fishing. Accessible via engine boat from Sariakandi Jamuna Ghat."
+      },
+      {
+        "name": "Chandanbaisha",
+        "details": "Historic river port union with traditional grain trade. Accessible via CNG auto-rickshaw from Sariakandi town (approx. 9 km)."
+      },
+      {
+        "name": "Chhatar Khanda",
+        "details": "Agricultural area focusing on jute and rice. Accessible via CNG auto-rickshaw from Sariakandi center (approx. 6 km)."
+      },
+      {
+        "name": "Hatia",
+        "details": "Char island union specializing in chili and pulse farming. Accessible via engine boat from Sariakandi ghat."
+      },
+      {
+        "name": "Kamalpur",
+        "details": "Known for dairy cattle rearing on river pastures. Accessible via CNG auto-rickshaw from Sariakandi town (approx. 8 km)."
+      },
+      {
+        "name": "Kornibari",
+        "details": "Riverine agricultural zone vulnerable to seasonal floods. Accessible via CNG or boat depending on monsoon levels (approx. 11 km)."
+      },
+      {
+        "name": "Kutubpur",
+        "details": "Focuses on crop cultivation and local river ferry transport. Accessible via CNG auto-rickshaw from Sariakandi (approx. 7 km)."
+      },
+      {
+        "name": "Narchhi",
+        "details": "Mainland union with high yields of paddy and vegetables. Accessible via CNG auto-rickshaw from Sariakandi center (approx. 5 km)."
+      },
+      {
+        "name": "Phulbari",
+        "details": "Features major river embankment dams and scenic views. Accessible via rickshaw or CNG auto-rickshaw from Sariakandi town (approx. 3 km)."
+      },
+      {
+        "name": "Sariakandi",
+        "details": "The urban hub housing the Prem Jamunar Ghat tourism area. Accessible via direct bus or CNG auto-rickshaw from Bogra Chelopara/Satmatha (approx. 22 km)."
+      },
+      {
+        "name": "Devajhor",
+        "details": "Char-based union with vibrant seasonal agriculture. Accessible via local engine trawler boat from Sariakandi ghat."
+      }
+    ],
+    "policeStation": {
+      "name": "Sariakandi Police Station",
+      "location": "Sariakandi Sadar, Sariakandi, Bogra",
+      "contactNumbers": ["01320092320"]
+    },
+    "healthComplex": {
+      "name": "Sariakandi Upazila Health Complex",
+      "location": "Sariakandi Town, Sariakandi, Bogra",
+      "contactNumbers": ["01713382418"]
+    }
+  },
+  {
+    "id": "sonatola",
+    "upazilaName": "Sonatola",
+    "areaSqKm": 156.75,
+    "unionsCount": 7,
+    "pouroshovaCount": 1,
+    "description": "Occupying the northeastern edge of the district near Gaibandha, Sonatola lies in the basin of the Jamuna and Bangali rivers. It serves as an important regional rail stop and agricultural exchange market specializing in jute, rice, and pulses production.",
+    "unions": [
+      {
+        "name": "Balua",
+        "details": "Focuses on vegetable production and freshwater aquaculture. Accessible via CNG auto-rickshaw from Sonatola town (approx. 5 km)."
+      },
+      {
+        "name": "Bongram",
+        "details": "Agrarian union known for high-yield paddy fields. Accessible via CNG auto-rickshaw from Sonatola market (approx. 6 km)."
+      },
+      {
+        "name": "Digdair",
+        "details": "Situated along river banks; active in jute and chili trade. Accessible via CNG auto-rickshaw from Sonatola center (approx. 8 km)."
+      },
+      {
+        "name": "Joragachha",
+        "details": "Known for local markets and agricultural trade hubs. Accessible via CNG auto-rickshaw from Sonatola town (approx. 4 km)."
+      },
+      {
+        "name": "Madhupur",
+        "details": "Produces significant seasonal crops including pulses and mustard. Accessible via CNG or motorbike from Sonatola (approx. 7 km)."
+      },
+      {
+        "name": "Pakulla",
+        "details": "Features historic haats and prominent rice mills. Accessible via CNG auto-rickshaw from Sonatola railway station (approx. 6 km)."
+      },
+      {
+        "name": "Sonatola",
+        "details": "The central administrative union with railway connectivity. Accessible via local train, bus, or CNG auto-rickshaw from Bogra Sadar (approx. 30 km)."
+      }
+    ],
+    "policeStation": {
+      "name": "Sonatola Police Station",
+      "location": "Near Railway Station, Sonatola, Bogra",
+      "contactNumbers": ["01320092330"]
+    },
+    "healthComplex": {
+      "name": "Sonatola Upazila Health Complex",
+      "location": "Sonatola Town, Sonatola, Bogra",
+      "contactNumbers": ["01713382419"]
+    }
+  }
+]

@@ -130,15 +130,11 @@ const Navbar = () => {
           <>
             <NavLink to="/register">
               <button className="btn btn-secondary hover:scale-105">
-                {" "}
                 Register
               </button>
             </NavLink>
             <NavLink to="/login">
-              <button className="btn btn-primary hover:scale-105">
-                {" "}
-                Login
-              </button>
+              <button className="btn btn-primary hover:scale-105">Login</button>
             </NavLink>
           </>
         )}

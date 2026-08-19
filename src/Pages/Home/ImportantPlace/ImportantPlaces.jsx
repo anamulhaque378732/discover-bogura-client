@@ -10,7 +10,7 @@ const ImportantPlaces = () => {
         Most Popular Place in Bogura
       </h1>
       <div className="grid md:grid-cols-2 mx-auto   lg:grid-cols-3 grid-cols-1 md:gap-6 gap-2">
-        {Array.isArray(importantPlaces) &&
+        {importantPlaces &&
           importantPlaces.map((place) => (
             <ImportantPlace key={place.id} place={place}></ImportantPlace>
           ))}

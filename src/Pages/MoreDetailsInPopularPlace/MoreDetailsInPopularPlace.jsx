@@ -9,7 +9,7 @@ import {
   FaCheckCircle,
   FaHospital,
 } from "react-icons/fa";
-import OthersNavbar from "../../Shared/OthersNavbar";
+import Logo from "../../Components/Logo/Logo";
 
 const MoreDetailsInPopularPlace = () => {
   const place = useLoaderData();
@@ -31,15 +31,8 @@ const MoreDetailsInPopularPlace = () => {
   } = place;
   return (
     <>
-      {/* <Link to="/">
-        <button className="btn">
-          <FaArrowLeft />
-          Back to Previous Page
-        </button>
-      </Link> */}
-
-      <OthersNavbar></OthersNavbar>
-      <div className="max-w-5xl mx-auto p-4 md:p-6 bg-gray-50 space-y-6">
+      <div className="max-w-5xl mx-auto px-4 md:p-6 bg-gray-50 space-y-6">
+        <Logo></Logo>
         {/* 1. Header / Hero Section */}
         <div className="bg-white rounded-2xl shadow-sm border border-gray-100 overflow-hidden">
           <div className="relative h-64 md:h-80 bg-gray-200">
