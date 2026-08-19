@@ -22,7 +22,7 @@ const Navbar = () => {
   const links = (
     <>
       <li>
-        <NavLink to="/"> Home</NavLink>
+        <NavLink to="/">Home</NavLink>
       </li>
 
       <li>
@@ -30,13 +30,13 @@ const Navbar = () => {
       </li>
 
       <li>
-        <NavLink to="/"> Tourist Places </NavLink>
+        <NavLink to="/">Tourist Places</NavLink>
       </li>
       <li>
-        <NavLink to="/"> Famous People </NavLink>
+        <NavLink to="/">Famous People</NavLink>
       </li>
       <li>
-        <NavLink to="/"> Famous Food </NavLink>
+        <NavLink to="/">Famous Food</NavLink>
       </li>
       <li>
         <NavLink to="/moreAbout">About</NavLink>

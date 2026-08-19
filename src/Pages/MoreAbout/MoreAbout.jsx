@@ -1,5 +1,5 @@
 import { useLoaderData } from "react-router";
-import OthersNavbar from "../../Shared/OthersNavbar";
+
 import Footer from "../../Shared/Footer";
 
 const MoreAbout = () => {
@@ -27,8 +27,6 @@ const MoreAbout = () => {
   return (
     <>
       <div className="max-w-7xl mx-auto">
-        <OthersNavbar></OthersNavbar>
-
         {/* district description */}
 
         <div className="hero bg-base-200   rounded-2xl  mt-4 md:mt-12">

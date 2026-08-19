@@ -1,14 +1,16 @@
 import { Link, useLocation, useNavigate } from "react-router";
 import { FaEyeSlash } from "react-icons/fa";
-import GoogleLogin from "../SocialLogin/GoogleLogin";
+
 import { useState } from "react";
 import { IoEye } from "react-icons/io5";
-import OthersNavbar from "../../Shared/OthersNavbar";
+
 import { useForm } from "react-hook-form";
-import FacebookLogin from "../SocialLogin/FacebookLogin";
-import GithubLogin from "../SocialLogin/GithubLogin";
+
 import UseAuth from "../../Hooks/UseAuth";
 import Swal from "sweetalert2";
+import GithubLogin from "./SocialLogin/GithubLogin";
+import FacebookLogin from "./SocialLogin/FacebookLogin";
+import GoogleLogin from "./SocialLogin/GoogleLogin";
 
 const Login = () => {
   const [showPassword, setShowPassword] = useState(false);
@@ -53,9 +55,6 @@ const Login = () => {
 
   return (
     <>
-      <div className="max-w-7xl mx-auto">
-        <OthersNavbar></OthersNavbar>
-      </div>
       <div className="w-full max-w-md md:mt-10  mt-2 mx-auto p-4 rounded-md shadow sm:p-8 dark:bg-gray-50 dark:text-gray-800">
         <h2 className="mb-3 text-5xl font-semibold text-center">
           Please Login

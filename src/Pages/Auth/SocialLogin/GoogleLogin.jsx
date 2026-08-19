@@ -1,5 +1,5 @@
 import Swal from "sweetalert2";
-import UseAuth from "../../Hooks/UseAuth";
+import UseAuth from "../../../Hooks/UseAuth";
 import { useLocation, useNavigate } from "react-router";
 
 const GoogleLogin = () => {

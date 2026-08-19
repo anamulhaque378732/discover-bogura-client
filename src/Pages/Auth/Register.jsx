@@ -1,15 +1,15 @@
 import { FaEyeSlash } from "react-icons/fa";
 import { Link, useLocation, useNavigate } from "react-router";
-import GoogleLogin from "../SocialLogin/GoogleLogin";
 import { IoEye } from "react-icons/io5";
 import { useState } from "react";
-import OthersNavbar from "../../Shared/OthersNavbar";
 import { useForm } from "react-hook-form";
 import UseAuth from "../../Hooks/UseAuth";
 import Swal from "sweetalert2";
-import FacebookLogin from "../SocialLogin/FacebookLogin";
-import GithubLogin from "../SocialLogin/GithubLogin";
+
 import axios from "axios";
+import GoogleLogin from "./SocialLogin/GoogleLogin";
+import FacebookLogin from "./SocialLogin/FacebookLogin";
+import GithubLogin from "./SocialLogin/GithubLogin";
 
 const Register = () => {
   const [showPassword, setShowPassword] = useState(false);
@@ -44,7 +44,7 @@ const Register = () => {
           // update user profile to firebase
 
           const userProfile = {
-            displayName: data.name,
+            displayName: name,
             photoURL: res.data.data.url,
           };
 
@@ -74,9 +74,6 @@ const Register = () => {
 
   return (
     <>
-      <div className="max-w-7xl mx-auto">
-        <OthersNavbar></OthersNavbar>
-      </div>
       <div className="w-full max-w-md mx-auto p-4 md:mt-6 mt-2 rounded-md shadow sm:p-8 dark:bg-gray-50 dark:text-gray-800">
         <h2 className="mb-3 text-4xl font-semibold text-center">
           Please Register
