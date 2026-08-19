@@ -7,6 +7,10 @@ import Home from "../Pages/Home/Home";
 import MoreAbout from "../Pages/MoreAbout/MoreAbout";
 import Loading from "../Components/Loading/Loading";
 import AuthLayouts from "../Layouts/AuthLayouts";
+import Thana from "../Pages/Thana/Thana";
+import TouristPlaces from "../Pages/TouristPlaces/TouristPlaces";
+import FamousPeople from "../Pages/FamousPeople/FamousPeople";
+import FamousFood from "../Pages/FamousFood/FamousFood";
 
 export const router = createBrowserRouter([
   {
@@ -25,6 +29,22 @@ export const router = createBrowserRouter([
         Component: MoreAbout,
         loader: () => fetch("./moreAbout.json"),
         hydrateFallbackElement: <Loading></Loading>,
+      },
+      {
+        path: "/thana",
+        Component: Thana,
+      },
+      {
+        path: "/touristPlaces",
+        Component: TouristPlaces,
+      },
+      {
+        path: "/famousPeople",
+        Component: FamousPeople,
+      },
+      {
+        path: "/famousFood",
+        Component: FamousFood,
       },
     ],
   },

@@ -22,24 +22,66 @@ const Navbar = () => {
   const links = (
     <>
       <li>
-        <NavLink to="/">Home</NavLink>
+        <NavLink
+          className={({ isActive }) =>
+            `pb-1 ${isActive ? "border-b-2 border-primary" : ""}`
+          }
+          to="/"
+        >
+          Home
+        </NavLink>
       </li>
 
       <li>
-        <NavLink to="/">Thana</NavLink>
+        <NavLink
+          className={({ isActive }) =>
+            `pb-1 ${isActive ? "border-b-2 border-primary" : ""}`
+          }
+          to="/thana"
+        >
+          Thana
+        </NavLink>
       </li>
 
       <li>
-        <NavLink to="/">Tourist Places</NavLink>
+        <NavLink
+          className={({ isActive }) =>
+            `pb-1 ${isActive ? "border-b-2 border-primary" : ""}`
+          }
+          to="/touristPlaces"
+        >
+          Tourist Places
+        </NavLink>
       </li>
       <li>
-        <NavLink to="/">Famous People</NavLink>
+        <NavLink
+          className={({ isActive }) =>
+            `pb-1 ${isActive ? "border-b-2 border-primary" : ""}`
+          }
+          to="/famousPeople"
+        >
+          Famous People
+        </NavLink>
       </li>
       <li>
-        <NavLink to="/">Famous Food</NavLink>
+        <NavLink
+          className={({ isActive }) =>
+            `pb-1 ${isActive ? "border-b-2 border-primary" : ""}`
+          }
+          to="/famousFood"
+        >
+          Famous Food
+        </NavLink>
       </li>
       <li>
-        <NavLink to="/moreAbout">About</NavLink>
+        <NavLink
+          className={({ isActive }) =>
+            `pb-1 ${isActive ? "border-b-2 border-primary" : ""}`
+          }
+          to="/moreAbout"
+        >
+          About
+        </NavLink>
       </li>
     </>
   );
@@ -78,16 +120,25 @@ const Navbar = () => {
       </div>
       <div className="navbar-end gap-2">
         {user ? (
-          <button onClick={handleLogout} className="btn btn-primary">
+          <button
+            onClick={handleLogout}
+            className="btn hover:scale-105 btn-primary"
+          >
             Logout
           </button>
         ) : (
           <>
             <NavLink to="/register">
-              <button className="btn btn-secondary"> Register</button>
+              <button className="btn btn-secondary hover:scale-105">
+                {" "}
+                Register
+              </button>
             </NavLink>
             <NavLink to="/login">
-              <button className="btn btn-primary"> Login</button>
+              <button className="btn btn-primary hover:scale-105">
+                {" "}
+                Login
+              </button>
             </NavLink>
           </>
         )}

@@ -4,9 +4,13 @@ const ImportantPlace = ({ place }) => {
   const { name, location, upazila, image, category } = place;
 
   return (
-    <div className="card bg-base-200 w-96 shadow-sm">
+    <div className="card bg-base-200  shadow-sm  border-2 p-4 transition border-primary border-opacity-30 hover:scale-105 hover:border-secondary   group hover:no-underline focus:no-underline  rounded-2xl">
       <figure className="px-10 pt-10">
-        <img src={image} alt={category} className="rounded-xl opacity-90" />
+        <img
+          src={image}
+          alt={category}
+          className="rounded-xl hover:scale-110 opacity-90"
+        />
       </figure>
       <div className="card-body items-center text-center">
         <h2 className="card-title text-3xl"> {name}</h2>

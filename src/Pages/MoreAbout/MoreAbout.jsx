@@ -1,7 +1,5 @@
 import { useLoaderData } from "react-router";
 
-import Footer from "../../Shared/Footer";
-
 const MoreAbout = () => {
   const data = useLoaderData();
 
@@ -34,7 +32,7 @@ const MoreAbout = () => {
             <img
               alt="Shat matha image"
               src={heroImage}
-              className="max-w-sm rounded-lg shadow-2xl  opacity-70"
+              className="max-w-sm rounded-lg shadow-2xl hover:scale-110  opacity-70"
             />
 
             <div className="">
@@ -62,7 +60,7 @@ const MoreAbout = () => {
             <img
               alt="Tailwind CSS hero component"
               src={mapImage}
-              className="max-w-sm rounded-lg opacity-90 shadow-2xl"
+              className="max-w-sm rounded-lg opacity-90 hover:scale-110 shadow-2xl"
             />
             <div>
               <h1 className="text-5xl font-bold"> {introduction?.title} </h1>
@@ -86,7 +84,7 @@ const MoreAbout = () => {
             <img
               alt="Shat matha image"
               src={history?.image}
-              className="max-w-sm rounded-lg shadow-2xl  opacity-70"
+              className="max-w-sm rounded-lg shadow-2xl hover:scale-110  opacity-70"
             />
 
             <div className="">
@@ -101,7 +99,10 @@ const MoreAbout = () => {
 
         <div className="grid grid-cols-1 md:mt-12 mt-4 gap-4 mb-4  md:mb:8 md:grid-cols-4 ">
           {highlights.map((highlight, index) => (
-            <div key={index} className="border p-4 rounded-2xl ">
+            <div
+              key={index}
+              className="border-2 p-4 transition border-primary border-opacity-30 hover:scale-105 hover:border-secondary   group hover:no-underline focus:no-underline  rounded-2xl"
+            >
               <h1 className="text-3xl font-bold"> {highlight?.title} </h1>
               <p className="py-2">{highlight?.description}</p>
             </div>
@@ -114,7 +115,7 @@ const MoreAbout = () => {
             <img
               alt="Shat matha image"
               src={famousFood?.image}
-              className="max-w-sm rounded-lg shadow-2xl   "
+              className="max-w-sm rounded-lg shadow-2xl hover:scale-110   "
             />
 
             <div className="">
@@ -135,7 +136,7 @@ const MoreAbout = () => {
             <img
               alt="Tailwind CSS hero component"
               src={culture?.image}
-              className="max-w-sm rounded-lg opacity-90 shadow-2xl"
+              className="max-w-sm rounded-lg opacity-90 hover:scale-110 shadow-2xl"
             />
             <div>
               <h1 className="text-5xl font-bold"> {culture?.title} </h1>
@@ -150,7 +151,10 @@ const MoreAbout = () => {
 
         <div className="grid md:grid-cols-3 gap-4 md:mt-12 grid-cols-1">
           {upazilas.map((upazila, index) => (
-            <div key={index} className="border rounded-2xl  p-4">
+            <div
+              key={index}
+              className="border-2 p-4 transition border-primary border-opacity-30 hover:scale-105 hover:border-secondary max-w-sm group hover:no-underline focus:no-underline  rounded-2xl"
+            >
               <h1 className="text-3xl font-bold"> Name: {upazila.name} </h1>
               <p className="py-2"> {upazila.shortDescription} </p>
               <h3 className=" text-xl font-medium">
@@ -163,8 +167,6 @@ const MoreAbout = () => {
           ))}
         </div>
       </div>
-
-      <Footer></Footer>
     </>
   );
 };

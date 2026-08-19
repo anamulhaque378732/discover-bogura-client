@@ -37,7 +37,7 @@ const About = () => {
         </section>
         <section>
           <div>
-            <img src={map} alt="" />
+            <img src={map} alt="map in bogura" className="hover:scale-105 " />
           </div>
         </section>
       </div>
@@ -45,7 +45,7 @@ const About = () => {
         className="mx-auto flex justify-center md:my-8 my-4  pb-2"
         to="/moreAbout"
       >
-        <button className="btn btn-primary md:w-1/3 w-full content-center ">
+        <button className="btn btn-primary md:w-1/3 w-full hover:scale-105  content-center ">
           More About Bogura
         </button>
       </Link>
