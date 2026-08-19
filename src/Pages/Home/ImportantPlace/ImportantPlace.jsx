@@ -1,7 +1,7 @@
 import { Link } from "react-router";
 
 const ImportantPlace = ({ place }) => {
-  const { name, location, upazila, image, category } = place;
+  const { name, location, upazila, image, category, id } = place;
 
   return (
     <div className="card bg-base-200  shadow-sm  border-2 p-4 transition border-primary border-opacity-30 hover:scale-105 hover:border-secondary   group hover:no-underline focus:no-underline  rounded-2xl">
@@ -17,7 +17,7 @@ const ImportantPlace = ({ place }) => {
         <p className="text-xl"> Upazila: {upazila} </p>
         <p className="text-xl py-2">{location}</p>
         <div className="card-actions">
-          <Link>
+          <Link to={`/moreDetailsInPopularPlace/${id}`}>
             <button className="btn btn-primary">View Details</button>
           </Link>
         </div>

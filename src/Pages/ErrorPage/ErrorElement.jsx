@@ -1,3 +1,5 @@
+import { Link } from "react-router";
+
 const ErrorElement = () => {
   return (
     <div>
@@ -14,13 +16,12 @@ const ErrorElement = () => {
               But don't worry, you can find plenty of other things on our
               homepage.
             </p>
-            <a
-              rel="noopener noreferrer"
-              href="#"
+            <Link
+              to="/"
               className="px-8 py-3 font-semibold rounded dark:bg-violet-600 dark:text-gray-50"
             >
               Back to homepage
-            </a>
+            </Link>
           </div>
         </div>
       </section>

@@ -11,6 +11,7 @@ import Thana from "../Pages/Thana/Thana";
 import TouristPlaces from "../Pages/TouristPlaces/TouristPlaces";
 import FamousPeople from "../Pages/FamousPeople/FamousPeople";
 import FamousFood from "../Pages/FamousFood/FamousFood";
+import MoreDetailsInPopularPlace from "../Pages/MoreDetailsInPopularPlace/MoreDetailsInPopularPlace";
 
 export const router = createBrowserRouter([
   {
@@ -62,5 +63,19 @@ export const router = createBrowserRouter([
         Component: Login,
       },
     ],
+  },
+  {
+    path: "/moreDetailsInPopularPlace/:id",
+    loader: async ({ params }) => {
+      const res = await fetch("/importantPlace.json");
+      const data = await res.json();
+      const singlePlace = data.find(
+        (item) => String(item.id) === String(params.id),
+      );
+
+      return singlePlace;
+    },
+    Component: MoreDetailsInPopularPlace,
+    hydrateFallbackElement: <Loading></Loading>,
   },
 ]);

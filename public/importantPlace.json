@@ -1,5 +1,6 @@
 [
   {
+    "id": "0ana463199",
     "name": "Shaheed Ziaur Rahman Medical College",
     "slug": "shaheed-ziaur-rahman-medical-college",
     "banglaName": "শহীদ জিয়াউর রহমান মেডিকেল কলেজ",
@@ -33,6 +34,7 @@
   },
 
   {
+    "id": "0ana463179",
     "name": "TMSS Medical College",
     "slug": "tmss-medical-college",
     "banglaName": "টিএমএসএস মেডিকেল কলেজ",
@@ -62,6 +64,7 @@
   },
 
   {
+    "id": "0ana463499",
     "name": "Rural Development Academy",
     "slug": "rural-development-academy-rda",
     "banglaName": "পল্লী উন্নয়ন একাডেমি",
@@ -93,6 +96,7 @@
   },
 
   {
+    "id": "0ana463186",
     "name": "Spices Research Centre, BARI",
     "slug": "spices-research-centre-bari-bogura",
     "banglaName": "মসলা গবেষণা কেন্দ্র",
@@ -127,6 +131,7 @@
   },
 
   {
+    "id": "0ana463192",
     "name": "Bangladesh Agricultural Research Institute, Bogura",
     "slug": "bangladesh-agricultural-research-institute-bogura",
     "banglaName": "বাংলাদেশ কৃষি গবেষণা ইনস্টিটিউট, বগুড়া",
@@ -158,6 +163,7 @@
   },
 
   {
+    "id": "0ana463132",
     "name": "Bangladesh Sericulture Research and Training Institute",
     "slug": "bangladesh-sericulture-research-training-institute",
     "banglaName": "বাংলাদেশ রেশম গবেষণা ও প্রশিক্ষণ ইনস্টিটিউট",
@@ -186,6 +192,7 @@
   },
 
   {
+    "id": "0ana463163",
     "name": "Army Medical College Bogura",
     "slug": "army-medical-college-bogura",
     "banglaName": "আর্মি মেডিকেল কলেজ বগুড়া",
@@ -213,6 +220,7 @@
   },
 
   {
+    "id": "0ana463119",
     "name": "Bogura Cantonment",
     "slug": "bogura-cantonment",
     "banglaName": "বগুড়া সেনানিবাস",
@@ -240,6 +248,7 @@
   },
 
   {
+    "id": "0ana463143",
     "name": "Jahangirabad Cantonment",
     "slug": "jahangirabad-cantonment",
     "banglaName": "জাহাঙ্গীরাবাদ সেনানিবাস",
@@ -264,6 +273,7 @@
   },
 
   {
+    "id": "0ana463399",
     "name": "Bogura Airfield",
     "slug": "bogura-airfield",
     "banglaName": "বগুড়া বিমানবন্দর / বগুড়া এয়ারফিল্ড",
@@ -290,6 +300,7 @@
   },
 
   {
+    "id": "0ana496319",
     "name": "Proposed Bangladesh Air Force Base, Bogura",
     "slug": "proposed-bangladesh-air-force-base-bogura",
     "banglaName": "প্রস্তাবিত বাংলাদেশ বিমান বাহিনী ঘাঁটি, বগুড়া",
@@ -316,6 +327,7 @@
   },
 
   {
+    "id": "0ana465699",
     "name": "Bogura University",
     "slug": "bogura-university",
     "banglaName": "বগুড়া বিশ্ববিদ্যালয়",
@@ -350,6 +362,7 @@
   },
 
   {
+    "id": "0ana463569",
     "name": "Government Azizul Haque College",
     "slug": "government-azizul-haque-college",
     "banglaName": "সরকারি আজিজুল হক কলেজ",
@@ -406,6 +419,7 @@
     "isImportant": true
   },
   {
+    "id": "0ana486199",
     "name": "Bogura Zilla School",
     "slug": "bogura-zilla-school",
     "banglaName": "বগুড়া জিলা স্কুল",
@@ -454,6 +468,7 @@
     "isImportant": true
   },
   {
+    "id": "0ana467859",
     "name": "Pundra University of Science & Technology",
     "slug": "pundra-university-of-science-and-technology",
     "banglaName": "পুন্ড্র ইউনিভার্সিটি অব সায়েন্স অ্যান্ড টেকনোলজি",
