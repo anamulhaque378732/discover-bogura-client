@@ -17,6 +17,8 @@ import Allupazilas from "../Pages/AllUpazilas/Allupazilas";
 import DetailsFood from "../Pages/FamousFood/DetailsFood";
 import DetailsPeople from "../Pages/FamousPeople/DetailsPeople";
 import DetailsTouristPlace from "../Pages/TouristPlaces/DetailsTouristPlace";
+import RiversOfBogura from "../Pages/RiverOfBogura/RiversOfBogura";
+import RiverDetails from "../Pages/RiverOfBogura/RiverDetails";
 
 export const router = createBrowserRouter([
   {
@@ -39,11 +41,26 @@ export const router = createBrowserRouter([
         loader: () => fetch("./moreAbout.json"),
         hydrateFallbackElement: <Loading></Loading>,
       },
+      {
+        path: "/moreDetailsInPopularPlace/:id",
+        loader: async ({ params }) => {
+          const res = await fetch("/importantPlace.json");
+          const data = await res.json();
+          const singlePlace = data.find(
+            (item) => String(item.id) === String(params.id),
+          );
+
+          return singlePlace;
+        },
+        Component: MoreDetailsInPopularPlace,
+        hydrateFallbackElement: <Loading></Loading>,
+      },
 
       {
         path: "/thana",
         Component: Thana,
       },
+
       {
         path: "/touristPlaces",
         Component: TouristPlaces,
@@ -62,6 +79,16 @@ export const router = createBrowserRouter([
         path: "/famousPeople/:id",
         Component: DetailsPeople,
       },
+
+      {
+        path: "/rivers",
+        Component: RiversOfBogura,
+      },
+      {
+        path: "/rivers/:id",
+        Component: RiverDetails,
+      },
+
       {
         path: "/famousFood",
         Component: FamousFood,
@@ -71,20 +98,6 @@ export const router = createBrowserRouter([
         Component: DetailsFood,
       },
     ],
-  },
-  {
-    path: "/moreDetailsInPopularPlace/:id",
-    loader: async ({ params }) => {
-      const res = await fetch("/importantPlace.json");
-      const data = await res.json();
-      const singlePlace = data.find(
-        (item) => String(item.id) === String(params.id),
-      );
-
-      return singlePlace;
-    },
-    Component: MoreDetailsInPopularPlace,
-    hydrateFallbackElement: <Loading></Loading>,
   },
 
   {

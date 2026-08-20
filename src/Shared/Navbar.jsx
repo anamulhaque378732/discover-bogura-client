@@ -68,6 +68,16 @@ const Navbar = () => {
           className={({ isActive }) =>
             `pb-1 ${isActive ? "border-b-2 border-primary" : ""}`
           }
+          to="/rivers"
+        >
+          Rivers
+        </NavLink>
+      </li>
+      <li>
+        <NavLink
+          className={({ isActive }) =>
+            `pb-1 ${isActive ? "border-b-2 border-primary" : ""}`
+          }
           to="/famousFood"
         >
           Famous Food
