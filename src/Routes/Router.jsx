@@ -16,6 +16,7 @@ import UpazilasLayout from "../Layouts/UpazilasLayout";
 import Allupazilas from "../Pages/AllUpazilas/Allupazilas";
 import DetailsFood from "../Pages/FamousFood/DetailsFood";
 import DetailsPeople from "../Pages/FamousPeople/DetailsPeople";
+import DetailsTouristPlace from "../Pages/TouristPlaces/DetailsTouristPlace";
 
 export const router = createBrowserRouter([
   {
@@ -48,9 +49,15 @@ export const router = createBrowserRouter([
         Component: TouristPlaces,
       },
       {
+        path: "/touristPlaces/:id",
+        Component: DetailsTouristPlace,
+      },
+
+      {
         path: "/famousPeople",
         Component: FamousPeople,
       },
+
       {
         path: "/famousPeople/:id",
         Component: DetailsPeople,

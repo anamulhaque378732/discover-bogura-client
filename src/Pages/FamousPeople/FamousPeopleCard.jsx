@@ -1,4 +1,4 @@
-import { FaAward } from "react-icons/fa";
+import { FaAward, FaImage } from "react-icons/fa";
 import { FaLocationDot } from "react-icons/fa6";
 import { Link } from "react-router";
 
@@ -13,6 +13,7 @@ const FamousPeopleCard = ({ people }) => {
     district,
     _id,
     biography,
+    image,
   } = people;
   const birthYear = birthDate ? new Date(birthDate).getFullYear() : "";
   const deathYear = deathDate ? new Date(deathDate).getFullYear() : "Present";
@@ -20,6 +21,21 @@ const FamousPeopleCard = ({ people }) => {
   return (
     <div className="max-w-sm rounded-2xl overflow-hidden shadow-lg bg-gray-100 border border-gray-100 flex flex-col justify-between p-5 hover:shadow-xl transition-all duration-300 hover:border-2 hover:border-red-300">
       <div>
+        <div className="relative w-full h-48 mb-4 rounded-xl overflow-hidden bg-gray-100 flex items-center justify-center">
+          {image ? (
+            <img
+              src={image}
+              alt={name}
+              className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-300"
+            />
+          ) : (
+            <div className="flex flex-col items-center justify-center text-gray-400">
+              <FaImage className="text-4xl mb-1" />
+              <span className="text-xs">No Image Available</span>
+            </div>
+          )}
+        </div>
+
         <div className="flex justify-between items-center mb-3">
           <span className="text-xs font-semibold px-2.5 py-1 bg-amber-100 text-amber-800 rounded-full">
             {professions[0] || "Notable Personality"}
