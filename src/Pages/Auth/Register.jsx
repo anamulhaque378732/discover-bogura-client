@@ -10,19 +10,24 @@ import axios from "axios";
 import GoogleLogin from "./SocialLogin/GoogleLogin";
 import FacebookLogin from "./SocialLogin/FacebookLogin";
 import GithubLogin from "./SocialLogin/GithubLogin";
+import useAxiosSecure from "../../Hooks/useAxiosSecure";
 
 const Register = () => {
-  const [showPassword, setShowPassword] = useState(false);
-  const location = useLocation();
-  const navigate = useNavigate();
-
   const {
     register,
     handleSubmit,
     formState: { errors },
   } = useForm();
 
+  const [showPassword, setShowPassword] = useState(false);
+
   const { registerUser, updateUserProfile } = UseAuth();
+
+  const location = useLocation();
+
+  const navigate = useNavigate();
+
+  const axiosSecure = useAxiosSecure();
 
   const handleRegister = (data) => {
     const { name, photo, email, password } = data;
@@ -30,9 +35,7 @@ const Register = () => {
     const profileImage = photo[0];
 
     registerUser(email, password)
-      .then((result) => {
-        console.log(result.user);
-
+      .then(() => {
         // store the image and get the photo url
         const formData = new FormData();
 
@@ -41,11 +44,32 @@ const Register = () => {
         const imageApiUrl = `https://api.imgbb.com/1/upload?key=${import.meta.env.VITE_image_host}`;
 
         axios.post(imageApiUrl, formData).then((res) => {
+          const photoURL = res.data.data.name;
+
+          // update user in the database
+          const userInfo = {
+            email: data.email,
+            displayName: data.name,
+            photoURL: photoURL,
+          };
+
+          axiosSecure.post("/users", userInfo).then((res) => {
+            if (res.data.insertedId) {
+              Swal.fire({
+                icon: "success",
+                title: "Success!",
+                text: "User info saved to database successfully!",
+                timer: 1500,
+                showConfirmButton: false,
+              });
+            }
+          });
+
           // update user profile to firebase
 
           const userProfile = {
             displayName: name,
-            photoURL: res.data.data.url,
+            photoURL: photoURL,
           };
 
           updateUserProfile(userProfile)
