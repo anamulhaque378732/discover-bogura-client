@@ -1,3 +1,4 @@
+import PopularPlaces from "../PopularPlaces/PopularPlaces";
 import About from "./About/About";
 import Banner from "./Banner/Banner";
 
@@ -11,7 +12,9 @@ const Home = () => {
         <Banner></Banner>
         <About></About>
       </div>
-      <section></section>
+      <section>
+        <PopularPlaces></PopularPlaces>
+      </section>
     </>
   );
 };

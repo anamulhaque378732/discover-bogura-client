@@ -19,6 +19,7 @@ import DetailsPeople from "../Pages/FamousPeople/DetailsPeople";
 import DetailsTouristPlace from "../Pages/TouristPlaces/DetailsTouristPlace";
 import RiversOfBogura from "../Pages/RiverOfBogura/RiversOfBogura";
 import RiverDetails from "../Pages/RiverOfBogura/RiverDetails";
+import DetailsPopularPlace from "../Pages/PopularPlaces/DetailsPopularPlace";
 
 export const router = createBrowserRouter([
   {
@@ -29,6 +30,10 @@ export const router = createBrowserRouter([
       {
         index: true,
         Component: Home,
+      },
+      {
+        path: "/:id",
+        Component: DetailsPopularPlace,
       },
 
       {
