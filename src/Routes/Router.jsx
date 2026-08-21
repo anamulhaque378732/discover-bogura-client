@@ -11,7 +11,7 @@ import Thana from "../Pages/Thana/Thana";
 import TouristPlaces from "../Pages/TouristPlaces/TouristPlaces";
 import FamousPeople from "../Pages/FamousPeople/FamousPeople";
 import FamousFood from "../Pages/FamousFood/FamousFood";
-import MoreDetailsInPopularPlace from "../Pages/MoreDetailsInPopularPlace/MoreDetailsInPopularPlace";
+
 import UpazilasLayout from "../Layouts/UpazilasLayout";
 import Allupazilas from "../Pages/AllUpazilas/Allupazilas";
 import DetailsFood from "../Pages/FamousFood/DetailsFood";
@@ -28,32 +28,7 @@ export const router = createBrowserRouter([
     children: [
       {
         index: true,
-        loader: async () => {
-          const res = await fetch("/importantPlace.json");
-          return res.json();
-        },
         Component: Home,
-        hydrateFallbackElement: <Loading />,
-      },
-      {
-        path: "/moreAbout",
-        Component: MoreAbout,
-        loader: () => fetch("./moreAbout.json"),
-        hydrateFallbackElement: <Loading></Loading>,
-      },
-      {
-        path: "/moreDetailsInPopularPlace/:id",
-        loader: async ({ params }) => {
-          const res = await fetch("/importantPlace.json");
-          const data = await res.json();
-          const singlePlace = data.find(
-            (item) => String(item.id) === String(params.id),
-          );
-
-          return singlePlace;
-        },
-        Component: MoreDetailsInPopularPlace,
-        hydrateFallbackElement: <Loading></Loading>,
       },
 
       {
@@ -96,6 +71,12 @@ export const router = createBrowserRouter([
       {
         path: "/detailsFood/:id",
         Component: DetailsFood,
+      },
+      {
+        path: "/moreAbout",
+        Component: MoreAbout,
+        loader: () => fetch("./moreAbout.json"),
+        hydrateFallbackElement: <Loading></Loading>,
       },
     ],
   },

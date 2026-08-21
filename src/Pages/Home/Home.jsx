@@ -1,11 +1,7 @@
-import { useLoaderData } from "react-router";
 import About from "./About/About";
 import Banner from "./Banner/Banner";
-import ImportantPlace from "./ImportantPlace/ImportantPlaces";
 
 const Home = () => {
-  const data = useLoaderData();
-
   return (
     <>
       <div className="bg-base-200 mt-2">
@@ -15,9 +11,7 @@ const Home = () => {
         <Banner></Banner>
         <About></About>
       </div>
-      <section>
-        <ImportantPlace importantPlaces={data}></ImportantPlace>
-      </section>
+      <section></section>
     </>
   );
 };
