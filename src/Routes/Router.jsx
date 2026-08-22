@@ -7,11 +7,9 @@ import Home from "../Pages/Home/Home";
 import MoreAbout from "../Pages/MoreAbout/MoreAbout";
 import Loading from "../Components/Loading/Loading";
 import AuthLayouts from "../Layouts/AuthLayouts";
-import Thana from "../Pages/Thana/Thana";
 import TouristPlaces from "../Pages/TouristPlaces/TouristPlaces";
 import FamousPeople from "../Pages/FamousPeople/FamousPeople";
 import FamousFood from "../Pages/FamousFood/FamousFood";
-
 import UpazilasLayout from "../Layouts/UpazilasLayout";
 import Allupazilas from "../Pages/AllUpazilas/Allupazilas";
 import DetailsFood from "../Pages/FamousFood/DetailsFood";
@@ -20,6 +18,8 @@ import DetailsTouristPlace from "../Pages/TouristPlaces/DetailsTouristPlace";
 import RiversOfBogura from "../Pages/RiverOfBogura/RiversOfBogura";
 import RiverDetails from "../Pages/RiverOfBogura/RiverDetails";
 import DetailsPopularPlace from "../Pages/PopularPlaces/DetailsPopularPlace";
+import PoliceStations from "../Pages/PoliceStationAndFireService/PoliceStations";
+import DetailsPoliceStation from "../Pages/PoliceStationAndFireService/DetailsPoliceStation";
 
 export const router = createBrowserRouter([
   {
@@ -38,7 +38,11 @@ export const router = createBrowserRouter([
 
       {
         path: "/thana",
-        Component: Thana,
+        Component: PoliceStations,
+      },
+      {
+        path: "/thana/:id",
+        Component: DetailsPoliceStation,
       },
 
       {
