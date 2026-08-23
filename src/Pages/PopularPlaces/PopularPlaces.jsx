@@ -17,7 +17,6 @@ const PopularPlaces = () => {
   if (isLoading) {
     <Loading></Loading>;
   }
-  console.log(popularPlace);
 
   return (
     <div>

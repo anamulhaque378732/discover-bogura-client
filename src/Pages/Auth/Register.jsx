@@ -77,8 +77,6 @@ const Register = () => {
               navigate(location?.state || "/");
             })
             .catch((error) => {
-              console.log(error.code);
-
               Swal.fire({
                 icon: "error",
                 title: "Profile Error!",

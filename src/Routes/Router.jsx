@@ -20,6 +20,7 @@ import RiverDetails from "../Pages/RiverOfBogura/RiverDetails";
 import DetailsPopularPlace from "../Pages/PopularPlaces/DetailsPopularPlace";
 import PoliceStations from "../Pages/PoliceStationAndFireService/PoliceStations";
 import DetailsPoliceStation from "../Pages/PoliceStationAndFireService/DetailsPoliceStation";
+import PrivateRoute from "./PrivateRoute";
 
 export const router = createBrowserRouter([
   {
@@ -33,7 +34,11 @@ export const router = createBrowserRouter([
       },
       {
         path: "/:id",
-        Component: DetailsPopularPlace,
+        element: (
+          <PrivateRoute>
+            <DetailsPopularPlace />
+          </PrivateRoute>
+        ),
       },
 
       {
@@ -42,7 +47,11 @@ export const router = createBrowserRouter([
       },
       {
         path: "/thana/:id",
-        Component: DetailsPoliceStation,
+        element: (
+          <PrivateRoute>
+            <DetailsPoliceStation />
+          </PrivateRoute>
+        ),
       },
 
       {
@@ -51,7 +60,11 @@ export const router = createBrowserRouter([
       },
       {
         path: "/touristPlaces/:id",
-        Component: DetailsTouristPlace,
+        element: (
+          <PrivateRoute>
+            <DetailsTouristPlace />,
+          </PrivateRoute>
+        ),
       },
 
       {
@@ -70,7 +83,11 @@ export const router = createBrowserRouter([
       },
       {
         path: "/rivers/:id",
-        Component: RiverDetails,
+        element: (
+          <PrivateRoute>
+            <RiverDetails />
+          </PrivateRoute>
+        ),
       },
 
       {
@@ -79,7 +96,11 @@ export const router = createBrowserRouter([
       },
       {
         path: "/detailsFood/:id",
-        Component: DetailsFood,
+        element: (
+          <PrivateRoute>
+            <DetailsFood />
+          </PrivateRoute>
+        ),
       },
       {
         path: "/moreAbout",

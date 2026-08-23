@@ -29,7 +29,6 @@ const DetailsPoliceStation = () => {
   if (isLoading) {
     return <Loading />;
   }
-  console.log(station);
 
   const {
     name,

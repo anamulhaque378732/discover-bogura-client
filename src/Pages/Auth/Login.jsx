@@ -21,10 +21,11 @@ const Login = () => {
   const {
     register,
     handleSubmit,
+    getValues,
     formState: { errors },
   } = useForm();
 
-  const { signInUser } = UseAuth();
+  const { signInUser, resetPassword } = UseAuth();
 
   const handleLogin = (data) => {
     const { email, password } = data;
@@ -41,8 +42,6 @@ const Login = () => {
         navigate(location?.state || "/");
       })
       .catch((error) => {
-        console.log(error);
-
         Swal.fire({
           icon: "error",
           title: "Login Failed!",
@@ -50,6 +49,44 @@ const Login = () => {
           confirmButtonText: "Try Again",
           confirmButtonColor: "#d33",
         });
+      });
+  };
+
+  const handleResetPassword = () => {
+    const email = getValues("email");
+    if (!email) {
+      Swal.fire({
+        icon: "warning",
+        title: "Email Required",
+        text: "Please enter your email first.",
+      });
+
+      return;
+    }
+
+    resetPassword(email)
+      .then(() => {
+        Swal.fire({
+          icon: "success",
+          title: "Check Your Email",
+          text: "If an account exists with this email, a password reset link has been sent.",
+          confirmButtonColor: "#8b5cf6",
+        });
+      })
+      .catch((error) => {
+        if (error.code === "auth/invalid-email") {
+          Swal.fire({
+            icon: "error",
+            title: "Invalid Email!",
+            text: "Please enter a valid email address.",
+          });
+        } else {
+          Swal.fire({
+            icon: "error",
+            title: "Something Went Wrong!",
+            text: error.message,
+          });
+        }
       });
   };
 
@@ -102,13 +139,13 @@ const Login = () => {
                 <label htmlFor="password" className="text-sm">
                   Password
                 </label>
-                <a
-                  rel="noopener noreferrer"
-                  href="#"
+                <button
+                  type="button"
+                  onClick={handleResetPassword}
                   className="text-xs hover:underline dark:text-gray-600"
                 >
                   Forgot password?
-                </a>
+                </button>
               </div>
               <div className="flex">
                 <input
