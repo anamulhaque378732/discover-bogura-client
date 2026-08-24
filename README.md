@@ -35,13 +35,13 @@ The goal is to create a simple and user-friendly digital platform where anyone c
 
 ---
 
-## 🌐 Live Website
+## 🌐 Live Project
 
-🔗 **Live:**  
-https://discover-bogura.web.app/
-
-🔗 **Client Repository:**  
-https://github.com/anamulhaque378732/discover-bogura-client
+| Resource | Link |
+|---|---|
+| 🌐 Live Website | https://discover-bogura.web.app/ |
+| 💻 Client Repository | https://github.com/anamulhaque378732/discover-bogura-client |
+| ⚙️ Server Repository | https://github.com/anamulhaque378732/discover-bogura-server |
 
 ---
 
@@ -103,9 +103,9 @@ SweetAlert2 is used to provide interactive success, warning, and error messages.
 
 ---
 
-## 🛠️ Technologies Used
+# 🛠️ Technologies Used
 
-### Frontend
+## 💻 Frontend
 
 | Technology | Purpose |
 |---|---|
@@ -122,7 +122,45 @@ SweetAlert2 is used to provide interactive success, warning, and error messages.
 
 ---
 
-## 📦 Dependencies
+## ⚙️ Backend
+
+The backend is built with **Node.js, Express.js, and MongoDB** and provides RESTful APIs for the Discover Bogura application.
+
+### Backend Technologies
+
+| Technology | Purpose |
+|---|---|
+| Node.js | JavaScript runtime |
+| Express.js | Backend framework |
+| MongoDB | Database |
+| Firebase Admin SDK | Firebase authentication verification |
+| REST API | Client-server communication |
+| CORS | Cross-origin resource sharing |
+| dotenv | Environment variable management |
+
+### 🔐 Backend Responsibilities
+
+The server handles:
+
+- RESTful API development
+- MongoDB database operations
+- Firebase authentication verification
+- Protected API routes
+- User authentication
+- Upazila data
+- Category-based data
+- District information
+- Place and institution information
+- Secure server-side operations
+
+### 📂 Server Repository
+
+🔗 **GitHub:**  
+https://github.com/anamulhaque378732/discover-bogura-server
+
+---
+
+## 📦 Frontend Dependencies
 
 ```json
 {
